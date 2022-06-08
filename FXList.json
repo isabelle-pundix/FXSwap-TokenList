@@ -1,0 +1,33 @@
+{
+    "name": "FX Token List",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+    },
+    "keywords": [
+        "FX",
+        "Tokens"
+    ],
+    "logoURI": "`https://raw.githubusercontent.com/YP010/FXSwap/main/FX.png",
+
+    "timestamp": "2022-06-08T09:30:00+0000",
+    "tokens": [
+        {
+            "name": "TokenA",
+            "chainId": 90001,
+            "symbol": "A",
+            "decimals": 18,
+            "address": "0xFBC5889064448d0005a249E4f2C01D1d7e17EF4A",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0xFBC5889064448d0005a249E4f2C01D1d7e17EF4A/logo.png"
+        },
+        {
+            "name": "TokenB",
+            "chainId": 90001,
+            "symbol": "B",
+            "decimals": 18,
+            "address": "0xa19f9A19d444f6C3a0721494F215F377d2b35169",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0xa19f9A19d444f6C3a0721494F215F377d2b35169/logo.png"
+        }
+    ]
+  }
