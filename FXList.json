@@ -25,7 +25,7 @@
             "name": "FolgoryUSD",
             "chainId": 90001,
             "symbol": "USDF",
-            "decimals": 18,
+            "decimals": 6,
             "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
             "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo.png"
         },
@@ -33,7 +33,7 @@
             "name": "Tether",
             "chainId": 90001,
             "symbol": "USDT",
-            "decimals": 18,
+            "decimals": 6,
             "address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
             "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57/logo.png"
         },
