@@ -14,7 +14,7 @@
     "timestamp": "2022-06-08T09:30:00+0000",
     "tokens": [
         {
-            "name": "Dai",
+            "name": "Dai Stablecoin",
             "chainId": 90001,
             "symbol": "DAI",
             "decimals": 18,
