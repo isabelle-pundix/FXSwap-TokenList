@@ -14,44 +14,20 @@
     "timestamp": "2022-06-08T09:30:00+0000",
     "tokens": [
         {
-            "name": "Dai Stablecoin",
-            "chainId": 90001,
-            "symbol": "DAI",
-            "decimals": 18,
-            "address": "0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5",
-            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5/logo.png"
-        },
-        {
-            "name": "FolgoryUSD",
-            "chainId": 90001,
-            "symbol": "USDF",
-            "decimals": 6,
-            "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
-            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo.png"
-        },
-        {
-            "name": "Tether",
-            "chainId": 90001,
-            "symbol": "USDT",
-            "decimals": 6,
-            "address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
-            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57/logo.png"
-        },
-        {
-            "name": "Pundi X",
-            "chainId": 90001,
+            "name": "Pundi X Token",
+            "chainId": 530,
             "symbol": "PUNDIX",
             "decimals": 18,
-            "address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
-            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo.png"
+            "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png"
         },
         {
-            "name": "Pundi X PURSE",
-            "chainId": 90001,
+            "name": "PURSE Token",
+            "chainId": 530,
             "symbol": "PURSE",
             "decimals": 18,
-            "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
+            "address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687/logo.png"
         }
     ]
   }
