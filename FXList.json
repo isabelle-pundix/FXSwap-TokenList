@@ -51,7 +51,7 @@
             "symbol": "USDC",
             "decimals": 6,
             "address": "0xF5b24c0093b65408ACE53df7ce86a02448d53b25",
-            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap/main/Tokens/0xF5b24c0093b65408ACE53df7ce86a02448d53b25/logo.png"
         },
         {
             "name": "Dai Stablecoin",
