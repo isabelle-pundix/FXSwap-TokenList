@@ -1,6 +1,8 @@
 ## FX Swap Token List
 FX Swap Token List is a specification for list of token metadata (e.g. address and decimals) that can be used by dApp interface. 
+
 This repository is a comprehensive collection of tokens on FX Swap.
+
 Token logos are stored according to their f(x) EVM address under the `Tokens/` directory and the images are stored in the format `<Token-Address>/logo.png`.
 
 ### General Requirements
