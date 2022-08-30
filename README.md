@@ -33,4 +33,4 @@ Token logos are stored according to their f(x) EVM address under the `Tokens/` d
 ### Adding Token Logo
 1. Create a new directory in `Tokens\` directory, named using the [checksum token address](https://web3js.readthedocs.io/en/v1.7.1/web3-utils.html#tochecksumaddress).
 2. Add token image as file named logo.png inside the directory.
-3. Image should not be larger than 10 KB.
+3. Image should not be larger than 20 KB.
