@@ -108,6 +108,38 @@
             "decimals": 18,
             "address": "0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0",
             "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
+        },
+        {
+            "name": "Dai Stablecoin",
+            "chainId": 530,
+            "symbol": "DAI",
+            "decimals": 18,
+            "address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
+        },
+        {
+            "name": "STASIS EURS TOKEN",
+            "chainId": 530,
+            "symbol": "EURS",
+            "decimals": 2,
+            "address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
+        },
+        {
+            "name": "Chainlink Token",
+            "chainId": 530,
+            "symbol": "LINK",
+            "decimals": 18,
+            "address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
+        },
+        {
+            "name": "Coin98",
+            "chainId": 530,
+            "symbol": "C98",
+            "decimals": 18,
+            "address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
         }
     ]
   }
