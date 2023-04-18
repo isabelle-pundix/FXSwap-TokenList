@@ -188,6 +188,14 @@
             "decimals": 18,
             "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
             "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
+        },
+        {
+            "name": "Wrapped BTC",
+            "chainId": 530,
+            "symbol": "WBTC",
+            "decimals": 18,
+            "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
+            "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo.png"
         }
     ]
   }
