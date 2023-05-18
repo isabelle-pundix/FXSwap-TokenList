@@ -19,7 +19,7 @@ Token logos are stored according to their f(x) EVM address under the `Tokens/` d
     "symbol": "PUNDIX",
     "decimals": 18,
     "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
-    "logoURI": "https://raw.githubusercontent.com/YP010/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png"
 }
 ```
 
