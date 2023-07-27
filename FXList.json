@@ -50,8 +50,8 @@
             "chainId": 90001,
             "symbol": "USDT",
             "decimals": 6,
-            "address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57/logo.png"
+            "address": "0x3515F25AB7637adcF1b69F4D384ed5936B83431F",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3515F25AB7637adcF1b69F4D384ed5936B83431F/logo.png"
         },
         {
             "name": "USD Coin",
@@ -92,14 +92,6 @@
             "decimals": 6,
             "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo.png"
-        },
-        {
-            "name": "Tether USD",
-            "chainId": 90001,
-            "symbol": "USDT",
-            "decimals": 6,
-            "address": "0x4A2a90D444DbB7163B5861b772f882BbA394Ca67",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4A2a90D444DbB7163B5861b772f882BbA394Ca67/logo.png"
         },
         {
             "name": "Chainlink Token",
