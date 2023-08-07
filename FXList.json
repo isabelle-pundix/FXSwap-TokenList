@@ -123,7 +123,7 @@
             "symbol": "BAVA",
             "decimals": 18,
             "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo.png"
         },
         {
             "name": "Wrapped BTC",
@@ -235,7 +235,7 @@
             "symbol": "BAVA",
             "decimals": 18,
             "address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo.png"
         }
     ]
   }
