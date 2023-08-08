@@ -123,7 +123,7 @@
             "symbol": "BAVA",
             "decimals": 18,
             "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
         },
         {
             "name": "Wrapped BTC",
@@ -131,7 +131,7 @@
             "symbol": "WBTC",
             "decimals": 8,
             "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo.png"
         },
         {
             "name": "CosmosHub ATOM",
@@ -147,7 +147,7 @@
             "symbol": "PUNDIX",
             "decimals": 18,
             "address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo-testnet.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo-testnet.png"
         },
         {
             "name": "Tether USD",
@@ -155,7 +155,7 @@
             "symbol": "USDT",
             "decimals": 6,
             "address": "0x3515F25AB7637adcF1b69F4D384ed5936B83431F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3515F25AB7637adcF1b69F4D384ed5936B83431F/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3515F25AB7637adcF1b69F4D384ed5936B83431F/logo-testnet.png"
         },
         {
             "name": "Wrapped Ether",
@@ -163,7 +163,7 @@
             "symbol": "WETH",
             "decimals": 18,
             "address": "0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A/logo-testnet.png"
         },
         {
             "name": "Wrapped BTC",
@@ -171,7 +171,7 @@
             "symbol": "WBTC",
             "decimals": 8,
             "address": "0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963/logo-testnet.png"
         },
         {
             "name": "Dai Stablecoin",
@@ -179,7 +179,7 @@
             "symbol": "DAI",
             "decimals": 18,
             "address": "0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1D54EcB8583Ca25895c512A8308389fFD581F9c9/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3/logo-testnet.png"
         },
         {
             "name": "USD Coin",
@@ -187,7 +187,7 @@
             "symbol": "USDC",
             "decimals": 6,
             "address": "0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E/logo-testnet.png"
         },
         {
             "name": "Wrapped AVAX",
@@ -203,7 +203,7 @@
             "symbol": "PURSE",
             "decimals": 18,
             "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo-testnet.png"
         },
         {
             "name": "JUST Stablecoin v1.0",
@@ -211,7 +211,7 @@
             "symbol": "USDJ",
             "decimals": 18,
             "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo-testnet.png"
         },
         {
             "name": "FX USD",
@@ -227,7 +227,7 @@
             "symbol": "LINK",
             "decimals": 18,
             "address": "0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7/logo-testnet.png"
         },
         {
             "name": "BavaToken",
@@ -235,7 +235,7 @@
             "symbol": "BAVA",
             "decimals": 18,
             "address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo-testnet.png"
         }
     ]
   }
