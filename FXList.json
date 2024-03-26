@@ -70,14 +70,6 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6/logo.png"
         },
         {
-            "name": "FoxGaming",
-            "chainId": 530,
-            "symbol": "FXG",
-            "decimals": 18,
-            "address": "0xebd3B8b345A325B0fcE339aeEa9996A6a5a947dc",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xebd3B8b345A325B0fcE339aeEa9996A6a5a947dc/logo.png"
-        },
-        {
             "name": "Wrapper Ether",
             "chainId": 530,
             "symbol": "WETH",
