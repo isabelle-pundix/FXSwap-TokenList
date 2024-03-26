@@ -158,6 +158,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd498e747aD8a5451C0842188F75907210Ab0540A/logo.png"
         },
         {
+            "name": "melon",
+            "chainId": 530,
+            "symbol": "melon",
+            "decimals": 18,
+            "address": "0x8F1b7FDaE820a052717d9BF60C834973A96C6031",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8F1b7FDaE820a052717d9BF60C834973A96C6031/logo.png"
+        },
+        {
+            "name": "MrCrypto",
+            "chainId": 530,
+            "symbol": "MRC",
+            "decimals": 18,
+            "address": "0xC73736f3bb0b35a5120d43F94D9DDD254650bF98",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC73736f3bb0b35a5120d43F94D9DDD254650bF98/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
