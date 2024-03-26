@@ -150,6 +150,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362/logo.png"
         },
         {
+            "name": "Ai Meow",
+            "chainId": 530,
+            "symbol": "AIMEOW",
+            "decimals": 18,
+            "address": "0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6/logo.png"
+        },
+        {
+            "name": "wormsforfun",
+            "chainId": 530,
+            "symbol": "WFF",
+            "decimals": 18,
+            "address": "0xd498e747aD8a5451C0842188F75907210Ab0540A",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd498e747aD8a5451C0842188F75907210Ab0540A/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
