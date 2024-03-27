@@ -174,6 +174,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC73736f3bb0b35a5120d43F94D9DDD254650bF98/logo.png"
         },
         {
+            "name": "MissCrypto",
+            "chainId": 530,
+            "symbol": "MISSC",
+            "decimals": 18,
+            "address": "0x03d6D12865348aE0F8401f0300d10fFAF39FDf1a",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x03d6D12865348aE0F8401f0300d10fFAF39FDf1a/logo.png"
+        },
+        {
+            "name": "Cluckonomics",
+            "chainId": 530,
+            "symbol": "COK",
+            "decimals": 18,
+            "address": "0x6f94f340C9FBEfA28E414824a41A7a8827148307",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6f94f340C9FBEfA28E414824a41A7a8827148307/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
