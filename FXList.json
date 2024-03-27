@@ -190,6 +190,46 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6f94f340C9FBEfA28E414824a41A7a8827148307/logo.png"
         },
         {
+            "name": "SofaKingRich",
+            "chainId": 530,
+            "symbol": "SKR",
+            "decimals": 18,
+            "address": "0xccb313A68da6907b287683fd5FC42469Ca23CbD1",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xccb313A68da6907b287683fd5FC42469Ca23CbD1/logo.png"
+        },
+        {
+            "name": "BreadPitt",
+            "chainId": 530,
+            "symbol": "BREAP",
+            "decimals": 18,
+            "address": "0x2844e94ee77fCa45381117b66A956DA3B4D3F4de",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2844e94ee77fCa45381117b66A956DA3B4D3F4de/logo.png"
+        },
+        {
+            "name": "AlienInsurance",
+            "chainId": 530,
+            "symbol": "ALIN",
+            "decimals": 18,
+            "address": "0x201e8A5a20873ACd5443825C1Ee076afa21251C8",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x201e8A5a20873ACd5443825C1Ee076afa21251C8/logo.png"
+        },
+        {
+            "name": "CouchPotatoCoin",
+            "chainId": 530,
+            "symbol": "CPOTO",
+            "decimals": 18,
+            "address": "0x5A3CaB89E8608B62990DBfd6E3Adb1F28aa6Ee6b",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5A3CaB89E8608B62990DBfd6E3Adb1F28aa6Ee6b/logo.png"
+        },
+        {
+            "name": "DogeDentist",
+            "chainId": 530,
+            "symbol": "DDOG",
+            "decimals": 18,
+            "address": "0x471bc69CbD6AaA04099830A5e92A9d24F9b73216",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x471bc69CbD6AaA04099830A5e92A9d24F9b73216/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
