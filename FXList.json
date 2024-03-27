@@ -230,6 +230,30 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x471bc69CbD6AaA04099830A5e92A9d24F9b73216/logo.png"
         },
         {
+            "name": "Unicornomics",
+            "chainId": 530,
+            "symbol": "UNICM",
+            "decimals": 18,
+            "address": "0x64179063F360c4f0ef6bd04a06C68282A14FC7BD",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x64179063F360c4f0ef6bd04a06C68282A14FC7BD/logo.png"
+        },
+        {
+            "name": "PirateChain",
+            "chainId": 530,
+            "symbol": "PIRC",
+            "decimals": 18,
+            "address": "0x528cEE13354E0748f5E450590Aac3183bD5D342F",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x528cEE13354E0748f5E450590Aac3183bD5D342F/logo.png"
+        },
+        {
+            "name": "ZombieCoin",
+            "chainId": 530,
+            "symbol": "ZMBC",
+            "decimals": 18,
+            "address": "0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
