@@ -278,6 +278,70 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1/logo.png"
         },
         {
+            "name": "LaserCat",
+            "chainId": 530,
+            "symbol": "LZRCT",
+            "decimals": 18,
+            "address": "0x74713974c5564537db762c44ecdEc72D77635334",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x74713974c5564537db762c44ecdEc72D77635334/logo.png"
+        },
+        {
+            "name": "TrollBridge Coin",
+            "chainId": 530,
+            "symbol": "TBDG",
+            "decimals": 18,
+            "address": "0x3D9F5AEFbc239A74daAa74E4Ee5E67A7bAE4e654",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3D9F5AEFbc239A74daAa74E4Ee5E67A7bAE4e654/logo.png"
+        },
+        {
+            "name": "AstroDuck Coin",
+            "chainId": 530,
+            "symbol": "ASTDK",
+            "decimals": 18,
+            "address": "0x2A5f4E86C361167D3cA9ded6C9c30e9Bc7317A8b",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2A5f4E86C361167D3cA9ded6C9c30e9Bc7317A8b/logo.png"
+        },
+        {
+            "name": "Hamsterrific Wealth",
+            "chainId": 530,
+            "symbol": "HAMW",
+            "decimals": 18,
+            "address": "0x2B757C05d5297f2D69D409f1ED15BC060432056F",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2B757C05d5297f2D69D409f1ED15BC060432056F/logo.png"
+        },
+        {
+            "name": "CryptoCritters",
+            "chainId": 530,
+            "symbol": "CCRT",
+            "decimals": 18,
+            "address": "0xDD5E368cb563206Cd302A530Af942f4A6A4A57b3",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDD5E368cb563206Cd302A530Af942f4A6A4A57b3/logo.png"
+        },
+        {
+            "name": "GooGalaxy",
+            "chainId": 530,
+            "symbol": "GOOGY",
+            "decimals": 18,
+            "address": "0x1F486Fc9691ced963e1d62f48D331aCd040dF2f8",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1F486Fc9691ced963e1d62f48D331aCd040dF2f8/logo.png"
+        },
+        {
+            "name": "ZenGarden",
+            "chainId": 530,
+            "symbol": "ZENG",
+            "decimals": 18,
+            "address": "0x396BF801D33f7fE94AA45528273A676E4225F55c",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x396BF801D33f7fE94AA45528273A676E4225F55c/logo.png"
+        },
+        {
+            "name": "CaffeineRush",
+            "chainId": 530,
+            "symbol": "CAFF",
+            "decimals": 18,
+            "address": "0xd833953a2a08060b39a408B98b5b58f829b7F1e4",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd833953a2a08060b39a408B98b5b58f829b7F1e4/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
