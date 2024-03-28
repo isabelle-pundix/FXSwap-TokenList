@@ -262,6 +262,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac/logo.png"
         },
         {
+            "name": "BarkyBoi",
+            "chainId": 530,
+            "symbol": "BBDG",
+            "decimals": 18,
+            "address": "0x6C9Ce3DCF2ae2898A62e5c219FE7124e6B26B44e",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6C9Ce3DCF2ae2898A62e5c219FE7124e6B26B44e/logo.png"
+        },
+        {
+            "name": "PepePharaoh Coin",
+            "chainId": 530,
+            "symbol": "PPHC",
+            "decimals": 18,
+            "address": "0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
