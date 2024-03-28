@@ -254,6 +254,14 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2/logo.png"
         },
         {
+            "name": "RooRooCoin",
+            "chainId": 530,
+            "symbol": "ROOR",
+            "decimals": 18,
+            "address": "0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
