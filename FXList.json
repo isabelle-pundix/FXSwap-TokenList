@@ -342,6 +342,37 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd833953a2a08060b39a408B98b5b58f829b7F1e4/logo.png"
         },
         {
+            "name": "Avocadough",
+            "chainId": 530,
+            "symbol": "AVCDO",
+            "decimals": 18,
+            "address": "0xB60a07238f33dF50d19a3e71b33005F9fBa33466",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB60a07238f33dF50d19a3e71b33005F9fBa33466/logo.png"
+        },{
+            "name": "InvisibleCatCoin",
+            "chainId": 530,
+            "symbol": "INVIS",
+            "decimals": 18,
+            "address": "0x003d67210C0e2764D947b0eb94112949ceF71B33",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x003d67210C0e2764D947b0eb94112949ceF71B33/logo.png"
+        },
+        {
+            "name": "MoonCheeseCoin",
+            "chainId": 530,
+            "symbol": "MCHEEZ",
+            "decimals": 18,
+            "address": "0x6309d0AB3bCCD79f86A1Db8B4821DcF0f2E00A9d",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6309d0AB3bCCD79f86A1Db8B4821DcF0f2E00A9d/logo.png"
+        },
+        {
+            "name": "SockMonsterCoin",
+            "chainId": 530,
+            "symbol": "SMNSTR",
+            "decimals": 18,
+            "address": "0xdD9477cA18858591dBd492D5C6b686009D68e031",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdD9477cA18858591dBd492D5C6b686009D68e031/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
