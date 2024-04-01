@@ -373,6 +373,46 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdD9477cA18858591dBd492D5C6b686009D68e031/logo.png"
         },
         {
+            "name": "mfercoin",
+            "chainId": 530,
+            "symbol": "$mfer",
+            "decimals": 18,
+            "address": "0x89eDC5312821414e9C33dfBce63E2dc13c57583b",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x89eDC5312821414e9C33dfBce63E2dc13c57583b/logo.png"
+        },
+        {
+            "name": "DINO",
+            "chainId": 530,
+            "symbol": "DINO",
+            "decimals": 18,
+            "address": "0x54d1e664e8CFfF6F6Bad9F0DE11c4fFF1CEEcfe0",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x54d1e664e8CFfF6F6Bad9F0DE11c4fFF1CEEcfe0/logo.png"
+        },
+        {
+            "name": "poopcoin",
+            "chainId": 530,
+            "symbol": "$poop",
+            "decimals": 18,
+            "address": "0xdea17C380259FbA45A2a0BF347599D81c99b56d4",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdea17C380259FbA45A2a0BF347599D81c99b56d4/logo.png"
+        },
+        {
+            "name": "Book of Base",
+            "chainId": 530,
+            "symbol": "BOBA",
+            "decimals": 18,
+            "address": "0xe5C408bb81741EB1bacbf3851FEfC77435E6526c",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe5C408bb81741EB1bacbf3851FEfC77435E6526c/logo.png"
+        },
+        {
+            "name": "Based Peaches",
+            "chainId": 530,
+            "symbol": "PEACH",
+            "decimals": 18,
+            "address": "0x10AEAec2072f36De9B55FA20D6de7a44B7195697",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x10AEAec2072f36De9B55FA20D6de7a44B7195697/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
