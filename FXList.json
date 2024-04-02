@@ -413,6 +413,46 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x10AEAec2072f36De9B55FA20D6de7a44B7195697/logo.png"
         },
         {
+            "name": "QuokkaCoin",
+            "chainId": 530,
+            "symbol": "QUKKA",
+            "decimals": 18,
+            "address": "0x0Fe01857A122812ACB2BEE2ec308FCf5fFB86500",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0Fe01857A122812ACB2BEE2ec308FCf5fFB86500/logo.png"
+        },
+        {
+            "name": "NoodleNarwhal",
+            "chainId": 530,
+            "symbol": "NOODL",
+            "decimals": 18,
+            "address": "0x7Da69F65166BC727E22d47B694017455e6B488f8",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7Da69F65166BC727E22d47B694017455e6B488f8/logo.png"
+        },
+        {
+            "name": "FluffUniverse",
+            "chainId": 530,
+            "symbol": "FLUN",
+            "decimals": 18,
+            "address": "0x749F1933F43Ec626cA23CD1D045AFa38124C522F",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x749F1933F43Ec626cA23CD1D045AFa38124C522F/logo.png"
+        },
+        {
+            "name": "RubberDuckyDAO",
+            "chainId": 530,
+            "symbol": "RBDD",
+            "decimals": 18,
+            "address": "0xfCABaAe1d6EF10a661b3B0879FC198A903632fC1",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfCABaAe1d6EF10a661b3B0879FC198A903632fC1/logo.png"
+        },
+        {
+            "name": "GalacticGiraffeCoin",
+            "chainId": 530,
+            "symbol": "GALAF",
+            "decimals": 18,
+            "address": "0xfA383C3DEd93ba2bF6cEb48D74832F041fa5B947",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfA383C3DEd93ba2bF6cEb48D74832F041fa5B947/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
