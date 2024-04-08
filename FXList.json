@@ -19,7 +19,11 @@
             "symbol": "PUNDIX",
             "decimals": 18,
             "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/PundiXLabs",
+                "website": "https://pundix.com/"
+            }
         },
         {
             "name": "PURSE Token",
@@ -27,7 +31,11 @@
             "symbol": "PURSE",
             "decimals": 18,
             "address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/Purse_Land",
+                "website": "https://purse.land/"
+            }
         },
         {
             "name": "Tether USD",
@@ -115,7 +123,11 @@
             "symbol": "BAVA",
             "decimals": 18,
             "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/baklavaspace",
+                "website": "https://baklava.space/"
+            }
         },
         {
             "name": "Wrapped BTC",
@@ -147,7 +159,11 @@
             "symbol": "AIMEOW",
             "decimals": 18,
             "address": "0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/AiMeow404",
+                "website": "https://aimeow.org"
+            }
         },
         {
             "name": "wormsforfun",
@@ -155,7 +171,11 @@
             "symbol": "WFF",
             "decimals": 18,
             "address": "0xd498e747aD8a5451C0842188F75907210Ab0540A",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd498e747aD8a5451C0842188F75907210Ab0540A/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd498e747aD8a5451C0842188F75907210Ab0540A/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/wormsforfun",
+                "website": "https://wormsforfun.com/"
+            }
         },
         {
             "name": "melon",
@@ -259,7 +279,11 @@
             "symbol": "ROOR",
             "decimals": 18,
             "address": "0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/RooRooCoin",
+                "website": "https://rooroo.xyz/"
+            }
         },
         {
             "name": "BarkyBoi",
