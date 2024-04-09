@@ -514,7 +514,7 @@
             "symbol": "AIWUFF",
             "decimals": 18,
             "address": "0x9A0a69840D05033e79205867ffe494Fc6632B98A",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9A0a69840D05033e79205867ffe494Fc6632B98A/logo.jpeg"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9A0a69840D05033e79205867ffe494Fc6632B98A/logo.png"
         },
         {
             "name": "BAYGON",
@@ -522,7 +522,7 @@
             "symbol": "BYG",
             "decimals": 0,
             "address": "0xC34316C3081D334b03020F225B59e17049879Fee",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC34316C3081D334b03020F225B59e17049879Fee/logo.jpeg"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC34316C3081D334b03020F225B59e17049879Fee/logo.png"
         },
         {
             "name": "Pundi X Token",
