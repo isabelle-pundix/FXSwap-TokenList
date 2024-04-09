@@ -509,6 +509,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x12DbA75d257DCFe45C63C3e2018742FEBaFeFa2D/logo.png"
         },
         {
+            "name": "AIWUFF",
+            "chainId": 530,
+            "symbol": "AIWUFF",
+            "decimals": 18,
+            "address": "0x9A0a69840D05033e79205867ffe494Fc6632B98A",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9A0a69840D05033e79205867ffe494Fc6632B98A/logo.jpeg"
+        },
+        {
+            "name": "BAYGON",
+            "chainId": 530,
+            "symbol": "BYG",
+            "decimals": 0,
+            "address": "0xC34316C3081D334b03020F225B59e17049879Fee",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC34316C3081D334b03020F225B59e17049879Fee/logo.jpeg"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
