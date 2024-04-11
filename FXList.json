@@ -151,7 +151,11 @@
             "symbol": "HUAHUA",
             "decimals": 6,
             "address": "0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/ChihuahuaChain",
+                "website": "https://www.chihuahua.wtf/"
+            }
         },
         {
             "name": "Ai Meow",
