@@ -535,6 +535,14 @@
             }
         },
         {
+            "name": "OppaBoba",
+            "chainId": 530,
+            "symbol": "OPPABOBA",
+            "decimals": 18,
+            "address": "0x5777B1A0e57c239b2aFFbc4448Dc92378204224D",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5777B1A0e57c239b2aFFbc4448Dc92378204224D/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
