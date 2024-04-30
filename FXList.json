@@ -543,6 +543,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5777B1A0e57c239b2aFFbc4448Dc92378204224D/logo.png"
         },
         {
+            "name": "UNIFART",
+            "chainId": 530,
+            "symbol": "UFRT",
+            "decimals": 18,
+            "address": "0x488b585D98C6f20897C0f9A9310674da0d59df0c",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x488b585D98C6f20897C0f9A9310674da0d59df0c/logo.png"
+        },
+        {
+            "name": "BullishBees",
+            "chainId": 530,
+            "symbol": "BZZ",
+            "decimals": 18,
+            "address": "0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
