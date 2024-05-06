@@ -559,6 +559,14 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483/logo.png"
         },
         {
+            "name": "Chope",
+            "chainId": 530,
+            "symbol": "CHOP",
+            "decimals": 18,
+            "address": "0x570f7F92B5e127E806495A030Ec939F0F95AAd11",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x570f7F92B5e127E806495A030Ec939F0F95AAd11/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
