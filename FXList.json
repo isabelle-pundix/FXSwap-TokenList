@@ -575,6 +575,14 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x28b92e2b546bA371dc83fa4292C26dAb5853647D/logo.png"
         },
         {
+            "name": "Kanasai",
+            "chainId": 530,
+            "symbol": "KNS",
+            "decimals": 18,
+            "address": "0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
