@@ -567,6 +567,14 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x570f7F92B5e127E806495A030Ec939F0F95AAd11/logo.png"
         },
         {
+            "name": "Whales of Wall Street",
+            "chainId": 530,
+            "symbol": "WHALE",
+            "decimals": 18,
+            "address": "0x28b92e2b546bA371dc83fa4292C26dAb5853647D",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x28b92e2b546bA371dc83fa4292C26dAb5853647D/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
