@@ -572,7 +572,10 @@
             "symbol": "WHALE",
             "decimals": 18,
             "address": "0x28b92e2b546bA371dc83fa4292C26dAb5853647D",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x28b92e2b546bA371dc83fa4292C26dAb5853647D/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x28b92e2b546bA371dc83fa4292C26dAb5853647D/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/thewhaletoken"
+            }
         },
         {
             "name": "Kanasai",
@@ -581,6 +584,17 @@
             "decimals": 18,
             "address": "0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9/logo.png"
+        },
+        {
+            "name": "Green Hathi",
+            "chainId": 530,
+            "symbol": "GHA",
+            "decimals": 18,
+            "address": "0xDBa11d0A76B3D57D99d6B62b454d8D70E9f784B0",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDBa11d0A76B3D57D99d6B62b454d8D70E9f784B0/logo.png",
+            "extensions": {
+                "twitter": "https://twitter.com/Green_Hathi_GHA"
+            }
         },
         {
             "name": "Pundi X Token",
