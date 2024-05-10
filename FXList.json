@@ -597,6 +597,22 @@
             }
         },
         {
+            "name": "Bonsai",
+            "chainId": 530,
+            "symbol": "BNSI",
+            "decimals": 18,
+            "address": "0x24d2670011BD6ED2c359756b1245CB1e57Bb2282",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x24d2670011BD6ED2c359756b1245CB1e57Bb2282/logo.png"
+        },
+        {
+            "name": "BearBucks",
+            "chainId": 530,
+            "symbol": "BBX",
+            "decimals": 18,
+            "address": "0x8dD1CC0551858E1304C80310139846326e064A34",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8dD1CC0551858E1304C80310139846326e064A34/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
