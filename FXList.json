@@ -629,6 +629,14 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x22960BaC2EbF0e147E6a5F4875EC73660E2aAe49/logo.png"
         },
         {
+            "name": "StarKittens",
+            "chainId": 530,
+            "symbol": "STRK",
+            "decimals": 18,
+            "address": "0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
