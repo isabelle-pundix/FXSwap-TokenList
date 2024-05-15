@@ -642,7 +642,11 @@
             "symbol": "CHMP",
             "decimals": 18,
             "address": "0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200/logo.png",
+            "extensions":{
+                "twitter": "https://twitter.com/CheekyCHMP",
+                "website": "https://cheekychimp.xyz"
+            }
         },
         {
             "name": "Pundi X Token",
