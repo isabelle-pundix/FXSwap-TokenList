@@ -637,6 +637,14 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F/logo.png"
         },
         {
+            "name": "CheekyChimp",
+            "chainId": 530,
+            "symbol": "CHMP",
+            "decimals": 18,
+            "address": "0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
