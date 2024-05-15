@@ -649,6 +649,22 @@
             }
         },
         {
+            "name": "QuantumQuokka",
+            "chainId": 530,
+            "symbol": "QTMK",
+            "decimals": 18,
+            "address": "0x714913399B2337A1BD687EAd5A82e7605f2651FE",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x714913399B2337A1BD687EAd5A82e7605f2651FE/logo.png"
+        },
+        {
+            "name": "RoaringKitty",
+            "chainId": 530,
+            "symbol": "RoarKat",
+            "decimals": 18,
+            "address": "0x9b10890f4146E99D8E2AA59e13793c438D0b721C",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9b10890f4146E99D8E2AA59e13793c438D0b721C/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
