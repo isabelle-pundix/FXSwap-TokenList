@@ -668,6 +668,30 @@
             }
         },
         {
+            "name": "FlappyBirdCoin",
+            "chainId": 530,
+            "symbol": "FLPY",
+            "decimals": 18,
+            "address": "0xd77a064354b9B0Ee548896b71D628A1B989BFe1d",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd77a064354b9B0Ee548896b71D628A1B989BFe1d/logo.png"
+        },
+        {
+            "name": "MooMooMars",
+            "chainId": 530,
+            "symbol": "MOOM",
+            "decimals": 18,
+            "address": "0x25d6eEe7562D7794BFC99c45c28fC5d3c07ec69b",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x25d6eEe7562D7794BFC99c45c28fC5d3c07ec69b/logo.png"
+        },
+        {
+            "name": "GoldenAxeCoin",
+            "chainId": 530,
+            "symbol": "GAXE",
+            "decimals": 18,
+            "address": "0x2535C48f75FE46AFcBA85AB4724561a2bbe00352",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2535C48f75FE46AFcBA85AB4724561a2bbe00352/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
