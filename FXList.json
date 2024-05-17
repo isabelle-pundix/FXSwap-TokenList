@@ -708,6 +708,22 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x685A512405dA77Da572781Bfbe7946CE731cBbe3/logo.png"
         },
         {
+            "name": "8Ball",
+            "chainId": 530,
+            "symbol": "EBC",
+            "decimals": 18,
+            "address": "0x26a1E7B3d2526fB239bCEca92cFc9386026a39B6",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x26a1E7B3d2526fB239bCEca92cFc9386026a39B6/logo.png"
+        },
+        {
+            "name": "DramaLlama",
+            "chainId": 530,
+            "symbol": "DAMA",
+            "decimals": 18,
+            "address": "0x19C3C89052a70bF76C0397d0792DCF7E5C4cda99",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x19C3C89052a70bF76C0397d0792DCF7E5C4cda99/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
