@@ -736,6 +736,14 @@
             }
         },
         {
+            "name": "Coffee wif HOSS",
+            "chainId": 530,
+            "symbol": "COFFEE",
+            "decimals": 18,
+            "address": "0x1253c26A574519B6235432F9Cf48283b9666E60b",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1253c26A574519B6235432F9Cf48283b9666E60b/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
