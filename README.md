@@ -10,7 +10,7 @@ Token logos are stored according to their f(x) EVM address under the `Tokens/` d
 2. Token must be on the f(x) EVM
 
 ### Adding Token to the Existing List
-1. Add an entry in the `tokens` field.
+1. Modify `FXList.json` to add an entry in the `tokens` field.
 - Example: 
 ```
 {
@@ -19,16 +19,15 @@ Token logos are stored according to their f(x) EVM address under the `Tokens/` d
     "symbol": "PUNDIX",
     "decimals": 18,
     "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
-    "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png",
+    "extensions": {
+        "twitter": "https://twitter.com/PundiXLabs",
+        "website": "https://pundix.com/"
+    }
 }
 ```
+2. The `twitter` field and `website` field within `extensions` are optional.
 
-2. Update the `timestamp` field to the current timestamp.
-
-3. Update the `version` field to adhere to semantic versioning. 
-- Increment major version when tokens are removed or when changing a token address or chain ID
-- Increment minor version when tokens are added
-- Increment patch version when tokens on the list have minor details changed (E.g. name, symbol, logoURI, decimals)
 
 ### Adding Token Logo
 1. Create a new directory in `Tokens\` directory, named using the [checksum token address](https://web3js.readthedocs.io/en/v1.7.1/web3-utils.html#tochecksumaddress).
