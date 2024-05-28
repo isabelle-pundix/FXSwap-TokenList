@@ -748,6 +748,14 @@
             }
         },
         {
+            "name": "Arowana Emas",
+            "chainId": 530,
+            "symbol": "ARE",
+            "decimals": 18,
+            "address": "0xEF7c0Dd2374Dfb0cb803d4604C0452E9D3515d3C",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xEF7c0Dd2374Dfb0cb803d4604C0452E9D3515d3C/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
