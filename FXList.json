@@ -697,7 +697,10 @@
             "symbol": "PENG",
             "decimals": 18,
             "address": "0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877/logo.png",
+            "extensions":{
+                "twitter":"https://x.com/PixePENG"
+            }
         },
         {
             "name": "RocketRaccoon",
@@ -705,7 +708,10 @@
             "symbol": "RACCO",
             "decimals": 18,
             "address": "0x685A512405dA77Da572781Bfbe7946CE731cBbe3",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x685A512405dA77Da572781Bfbe7946CE731cBbe3/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x685A512405dA77Da572781Bfbe7946CE731cBbe3/logo.png",
+            "extensions":{
+                "twitter": "https://x.com/RKTRaccooon"
+            }
         },
         {
             "name": "8Ball",
