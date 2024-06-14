@@ -896,6 +896,14 @@
             "decimals": 18,
             "address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo-testnet.png"
+        },
+        {
+            "name": "Say Meh",
+            "chainId": 90001,
+            "symbol": "SayMeh",
+            "decimals": 18,
+            "address": "0xE00e1cbdd11e9D90d2aC956AE7A133CB0B172fB5",
+            "logoURI": "https://raw.githubusercontent.com/aguscryptocom/images/main/token/0xE00e1cbdd11e9D90d2aC956AE7A133CB0B172fB5.png"
         }
     ]
   }
