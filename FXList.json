@@ -912,6 +912,14 @@
             "decimals": 18,
             "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a/logo-athens.png"
+        },
+        {
+            "name": "BavaToken",
+            "chainId": 7001,
+            "symbol": "BAVA",
+            "decimals": 18,
+            "address": "0x4a4b9616653515dd22cc316c6e538ff223144252",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4a4b9616653515dd22cc316c6e538ff223144252/logo-athens.png"
         }
     ]
   }
