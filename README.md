@@ -5,6 +5,8 @@ This repository is a comprehensive collection of tokens on MarginX.
 
 Token logos are stored according to their f(x) EVM address under the `Tokens/` directory and the images are stored in the format `<Token-Address>/logo.png`.
 
+To add a new token info, please follow the steps below and create a PR in the FXSwap-TokenList repository.
+
 ### General Requirements
 1. Token should be verified on FX Explorer [Mainnet](https://explorer.functionx.io/) or [Testnet](https://testnet.explorer.functionx.io/)
 2. Token must be on the f(x) EVM
