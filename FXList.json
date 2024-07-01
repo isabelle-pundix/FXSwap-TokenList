@@ -923,6 +923,14 @@
             "decimals": 18,
             "address": "0x4a4b9616653515dd22cc316c6e538ff223144252",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4a4b9616653515dd22cc316c6e538ff223144252/logo-athens.png"
+        },
+        {
+            "name": "PurseToken",
+            "chainId": 7001,
+            "symbol": "PURSE",
+            "decimals": 18,
+            "address": "0x2DD70efC2b4f456B65F04829D2AcD919F8e50C6a",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2DD70efC2b4f456B65F04829D2AcD919F8e50C6a/logo-athens.png"
         }
     ]
   }
