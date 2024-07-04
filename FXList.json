@@ -805,6 +805,30 @@
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7b86ff5c4E200388d496901ee0a709Ce4322469a/logo.png"
         },
         {
+            "name": "BEER",
+            "chainId": 530,
+            "symbol": "BEER",
+            "decimals": 18,
+            "address": "0x46CeD54D2F486D71a886b76baa25122B9582ef1b",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x46CeD54D2F486D71a886b76baa25122B9582ef1b/logo.png"
+        },
+        {
+            "name": "TrumpToons",
+            "chainId": 530,
+            "symbol": "TTOON",
+            "decimals": 18,
+            "address": "0x65e37E72dA43B67a87b6eB7c430B8f41457133aE",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x65e37E72dA43B67a87b6eB7c430B8f41457133aE/logo.png"
+        },
+        {
+            "name": "MOTHER IGGY",
+            "chainId": 530,
+            "symbol": "MOTHER",
+            "decimals": 18,
+            "address": "0xe41cbe0442a50253DaC6D0dAf9Bf9ac3181F7a55",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe41cbe0442a50253DaC6D0dAf9Bf9ac3181F7a55/logo.png"
+        },
+        {
             "name": "Pundi X Token",
             "chainId": 90001,
             "symbol": "PUNDIX",
