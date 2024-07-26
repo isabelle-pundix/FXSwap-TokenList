@@ -1,1008 +1,1016 @@
 {
-    "name": "FX Token List",
-    "version": {
-        "major": 1,
-        "minor": 0,
-        "patch": 0
+  "name": "FX Token List",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "FX",
+    "Tokens"
+  ],
+  "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/FX.png",
+  "timestamp": "2022-06-08T09:30:00+0000",
+  "tokens": [
+    {
+      "name": "Pundi X Token",
+      "chainId": 530,
+      "symbol": "PUNDIX",
+      "decimals": 18,
+      "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/PundiXLabs",
+        "website": "https://pundix.com/"
+      }
     },
-    "keywords": [
-        "FX",
-        "Tokens"
-    ],
-    "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/FX.png",
-
-    "timestamp": "2022-06-08T09:30:00+0000",
-    "tokens": [
-        {
-            "name": "Pundi X Token",
-            "chainId": 530,
-            "symbol": "PUNDIX",
-            "decimals": 18,
-            "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/PundiXLabs",
-                "website": "https://pundix.com/"
-            }
-        },
-        {
-            "name": "PURSE Token",
-            "chainId": 530,
-            "symbol": "PURSE",
-            "decimals": 18,
-            "address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/Purse_Land",
-                "website": "https://purse.land/"
-            }
-        },
-        {
-            "name": "Tether USD",
-            "chainId": 530,
-            "symbol": "USDT",
-            "decimals": 6,
-            "address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265/logo.png"
-        },
-        {
-            "name": "Dai Stablecoin",
-            "chainId": 530,
-            "symbol": "DAI",
-            "decimals": 18,
-            "address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1D54EcB8583Ca25895c512A8308389fFD581F9c9/logo.png"
-        },
-        {
-            "name": "STASIS EURS TOKEN",
-            "chainId": 530,
-            "symbol": "EURS",
-            "decimals": 2,
-            "address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E/logo.png"
-        },
-        {
-            "name": "Chainlink Token",
-            "chainId": 530,
-            "symbol": "LINK",
-            "decimals": 18,
-            "address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864/logo.png"
-        },
-        {
-            "name": "Coin98",
-            "chainId": 530,
-            "symbol": "C98",
-            "decimals": 18,
-            "address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6/logo.png"
-        },
-        {
-            "name": "Wrapper Ether",
-            "chainId": 530,
-            "symbol": "WETH",
-            "decimals": 18,
-            "address": "0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717/logo.png"
-        },
-        {
-            "name": "Binance USD",
-            "chainId": 530,
-            "symbol": "BUSD",
-            "decimals": 18,
-            "address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5aD523d94Efb56C400941eb6F34393b84c75ba39/logo.png"
-        },
-        {
-            "name": "Frax",
-            "chainId": 530,
-            "symbol": "FRAX",
-            "decimals": 18,
-            "address": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19/logo.png"
-        },
-        {
-            "name": "Wrapped AVAX",
-            "chainId": 530,
-            "symbol": "WAVAX",
-            "decimals": 18,
-            "address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57/logo.png"
-        },
-        {
-            "name": "USD Coin",
-            "chainId": 530,
-            "symbol": "USDC",
-            "decimals": 6,
-            "address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo.png"
-        },
-        {
-            "name": "BavaToken",
-            "chainId": 530,
-            "symbol": "BAVA",
-            "decimals": 18,
-            "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/baklavaspace",
-                "website": "https://baklava.space/"
-            }
-        },
-        {
-            "name": "Wrapped BTC",
-            "chainId": 530,
-            "symbol": "WBTC",
-            "decimals": 8,
-            "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo.png"
-        },
-        {
-            "name": "CosmosHub ATOM",
-            "chainId": 530,
-            "symbol": "ATOM",
-            "decimals": 6,
-            "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo.png"
-        },
-        {
-            "name": "Chihuahua",
-            "chainId": 530,
-            "symbol": "HUAHUA",
-            "decimals": 6,
-            "address": "0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/ChihuahuaChain",
-                "website": "https://www.chihuahua.wtf/"
-            }
-        },
-        {
-            "name": "Ai Meow",
-            "chainId": 530,
-            "symbol": "AIMEOW",
-            "decimals": 18,
-            "address": "0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/AiMeow404",
-                "website": "https://aimeow.org"
-            }
-        },
-        {
-            "name": "wormsforfun",
-            "chainId": 530,
-            "symbol": "WFF",
-            "decimals": 18,
-            "address": "0xd498e747aD8a5451C0842188F75907210Ab0540A",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd498e747aD8a5451C0842188F75907210Ab0540A/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/wormsforfun",
-                "website": "https://wormsforfun.com/"
-            }
-        },
-        {
-            "name": "melon",
-            "chainId": 530,
-            "symbol": "melon",
-            "decimals": 18,
-            "address": "0x8F1b7FDaE820a052717d9BF60C834973A96C6031",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8F1b7FDaE820a052717d9BF60C834973A96C6031/logo.png"
-        },
-        {
-            "name": "MrCrypto",
-            "chainId": 530,
-            "symbol": "MRC",
-            "decimals": 18,
-            "address": "0xC73736f3bb0b35a5120d43F94D9DDD254650bF98",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC73736f3bb0b35a5120d43F94D9DDD254650bF98/logo.png"
-        },
-        {
-            "name": "MissCrypto",
-            "chainId": 530,
-            "symbol": "MISSC",
-            "decimals": 18,
-            "address": "0x03d6D12865348aE0F8401f0300d10fFAF39FDf1a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x03d6D12865348aE0F8401f0300d10fFAF39FDf1a/logo.png"
-        },
-        {
-            "name": "Cluckonomics",
-            "chainId": 530,
-            "symbol": "COK",
-            "decimals": 18,
-            "address": "0x6f94f340C9FBEfA28E414824a41A7a8827148307",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6f94f340C9FBEfA28E414824a41A7a8827148307/logo.png"
-        },
-        {
-            "name": "SofaKingRich",
-            "chainId": 530,
-            "symbol": "SKR",
-            "decimals": 18,
-            "address": "0xccb313A68da6907b287683fd5FC42469Ca23CbD1",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xccb313A68da6907b287683fd5FC42469Ca23CbD1/logo.png"
-        },
-        {
-            "name": "BreadPitt",
-            "chainId": 530,
-            "symbol": "BREAP",
-            "decimals": 18,
-            "address": "0x2844e94ee77fCa45381117b66A956DA3B4D3F4de",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2844e94ee77fCa45381117b66A956DA3B4D3F4de/logo.png"
-        },
-        {
-            "name": "AlienInsurance",
-            "chainId": 530,
-            "symbol": "ALIN",
-            "decimals": 18,
-            "address": "0x201e8A5a20873ACd5443825C1Ee076afa21251C8",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x201e8A5a20873ACd5443825C1Ee076afa21251C8/logo.png"
-        },
-        {
-            "name": "CouchPotatoCoin",
-            "chainId": 530,
-            "symbol": "CPOTO",
-            "decimals": 18,
-            "address": "0x5A3CaB89E8608B62990DBfd6E3Adb1F28aa6Ee6b",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5A3CaB89E8608B62990DBfd6E3Adb1F28aa6Ee6b/logo.png"
-        },
-        {
-            "name": "DogeDentist",
-            "chainId": 530,
-            "symbol": "DDOG",
-            "decimals": 18,
-            "address": "0x471bc69CbD6AaA04099830A5e92A9d24F9b73216",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x471bc69CbD6AaA04099830A5e92A9d24F9b73216/logo.png"
-        },
-        {
-            "name": "Unicornomics",
-            "chainId": 530,
-            "symbol": "UNICM",
-            "decimals": 18,
-            "address": "0x64179063F360c4f0ef6bd04a06C68282A14FC7BD",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x64179063F360c4f0ef6bd04a06C68282A14FC7BD/logo.png"
-        },
-        {
-            "name": "PirateChain",
-            "chainId": 530,
-            "symbol": "PIRC",
-            "decimals": 18,
-            "address": "0x528cEE13354E0748f5E450590Aac3183bD5D342F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x528cEE13354E0748f5E450590Aac3183bD5D342F/logo.png"
-        },
-        {
-            "name": "ZombieCoin",
-            "chainId": 530,
-            "symbol": "ZMBC",
-            "decimals": 18,
-            "address": "0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2/logo.png"
-        },
-        {
-            "name": "RooRooCoin",
-            "chainId": 530,
-            "symbol": "ROOR",
-            "decimals": 18,
-            "address": "0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/RooRooCoin",
-                "website": "https://rooroo.xyz/"
-            }
-        },
-        {
-            "name": "BarkyBoi",
-            "chainId": 530,
-            "symbol": "BBDG",
-            "decimals": 18,
-            "address": "0x6C9Ce3DCF2ae2898A62e5c219FE7124e6B26B44e",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6C9Ce3DCF2ae2898A62e5c219FE7124e6B26B44e/logo.png"
-        },
-        {
-            "name": "PepePharaoh Coin",
-            "chainId": 530,
-            "symbol": "PPHC",
-            "decimals": 18,
-            "address": "0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1/logo.png"
-        },
-        {
-            "name": "LaserCat",
-            "chainId": 530,
-            "symbol": "LZRCT",
-            "decimals": 18,
-            "address": "0x74713974c5564537db762c44ecdEc72D77635334",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x74713974c5564537db762c44ecdEc72D77635334/logo.png"
-        },
-        {
-            "name": "TrollBridge Coin",
-            "chainId": 530,
-            "symbol": "TBDG",
-            "decimals": 18,
-            "address": "0x3D9F5AEFbc239A74daAa74E4Ee5E67A7bAE4e654",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3D9F5AEFbc239A74daAa74E4Ee5E67A7bAE4e654/logo.png"
-        },
-        {
-            "name": "AstroDuck Coin",
-            "chainId": 530,
-            "symbol": "ASTDK",
-            "decimals": 18,
-            "address": "0x2A5f4E86C361167D3cA9ded6C9c30e9Bc7317A8b",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2A5f4E86C361167D3cA9ded6C9c30e9Bc7317A8b/logo.png"
-        },
-        {
-            "name": "Hamsterrific Wealth",
-            "chainId": 530,
-            "symbol": "HAMW",
-            "decimals": 18,
-            "address": "0x2B757C05d5297f2D69D409f1ED15BC060432056F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2B757C05d5297f2D69D409f1ED15BC060432056F/logo.png"
-        },
-        {
-            "name": "CryptoCritters",
-            "chainId": 530,
-            "symbol": "CCRT",
-            "decimals": 18,
-            "address": "0xDD5E368cb563206Cd302A530Af942f4A6A4A57b3",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDD5E368cb563206Cd302A530Af942f4A6A4A57b3/logo.png"
-        },
-        {
-            "name": "GooGalaxy",
-            "chainId": 530,
-            "symbol": "GOOGY",
-            "decimals": 18,
-            "address": "0x1F486Fc9691ced963e1d62f48D331aCd040dF2f8",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1F486Fc9691ced963e1d62f48D331aCd040dF2f8/logo.png"
-        },
-        {
-            "name": "ZenGarden",
-            "chainId": 530,
-            "symbol": "ZENG",
-            "decimals": 18,
-            "address": "0x396BF801D33f7fE94AA45528273A676E4225F55c",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x396BF801D33f7fE94AA45528273A676E4225F55c/logo.png"
-        },
-        {
-            "name": "CaffeineRush",
-            "chainId": 530,
-            "symbol": "CAFF",
-            "decimals": 18,
-            "address": "0xd833953a2a08060b39a408B98b5b58f829b7F1e4",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd833953a2a08060b39a408B98b5b58f829b7F1e4/logo.png"
-        },
-        {
-            "name": "Avocadough",
-            "chainId": 530,
-            "symbol": "AVCDO",
-            "decimals": 18,
-            "address": "0xB60a07238f33dF50d19a3e71b33005F9fBa33466",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB60a07238f33dF50d19a3e71b33005F9fBa33466/logo.png"
-        },{
-            "name": "InvisibleCatCoin",
-            "chainId": 530,
-            "symbol": "INVIS",
-            "decimals": 18,
-            "address": "0x003d67210C0e2764D947b0eb94112949ceF71B33",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x003d67210C0e2764D947b0eb94112949ceF71B33/logo.png"
-        },
-        {
-            "name": "MoonCheeseCoin",
-            "chainId": 530,
-            "symbol": "MCHEEZ",
-            "decimals": 18,
-            "address": "0x6309d0AB3bCCD79f86A1Db8B4821DcF0f2E00A9d",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6309d0AB3bCCD79f86A1Db8B4821DcF0f2E00A9d/logo.png"
-        },
-        {
-            "name": "SockMonsterCoin",
-            "chainId": 530,
-            "symbol": "SMNSTR",
-            "decimals": 18,
-            "address": "0xdD9477cA18858591dBd492D5C6b686009D68e031",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdD9477cA18858591dBd492D5C6b686009D68e031/logo.png"
-        },
-        {
-            "name": "mfercoin",
-            "chainId": 530,
-            "symbol": "$mfer",
-            "decimals": 18,
-            "address": "0x89eDC5312821414e9C33dfBce63E2dc13c57583b",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x89eDC5312821414e9C33dfBce63E2dc13c57583b/logo.png"
-        },
-        {
-            "name": "DINO",
-            "chainId": 530,
-            "symbol": "DINO",
-            "decimals": 18,
-            "address": "0x54d1e664e8CFfF6F6Bad9F0DE11c4fFF1CEEcfe0",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x54d1e664e8CFfF6F6Bad9F0DE11c4fFF1CEEcfe0/logo.png"
-        },
-        {
-            "name": "poopcoin",
-            "chainId": 530,
-            "symbol": "$poop",
-            "decimals": 18,
-            "address": "0xdea17C380259FbA45A2a0BF347599D81c99b56d4",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdea17C380259FbA45A2a0BF347599D81c99b56d4/logo.png"
-        },
-        {
-            "name": "Book of Base",
-            "chainId": 530,
-            "symbol": "BOBA",
-            "decimals": 18,
-            "address": "0xe5C408bb81741EB1bacbf3851FEfC77435E6526c",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe5C408bb81741EB1bacbf3851FEfC77435E6526c/logo.png"
-        },
-        {
-            "name": "Based Peaches",
-            "chainId": 530,
-            "symbol": "PEACH",
-            "decimals": 18,
-            "address": "0x10AEAec2072f36De9B55FA20D6de7a44B7195697",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x10AEAec2072f36De9B55FA20D6de7a44B7195697/logo.png"
-        },
-        {
-            "name": "QuokkaCoin",
-            "chainId": 530,
-            "symbol": "QUKKA",
-            "decimals": 18,
-            "address": "0x0Fe01857A122812ACB2BEE2ec308FCf5fFB86500",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0Fe01857A122812ACB2BEE2ec308FCf5fFB86500/logo.png"
-        },
-        {
-            "name": "NoodleNarwhal",
-            "chainId": 530,
-            "symbol": "NOODL",
-            "decimals": 18,
-            "address": "0x7Da69F65166BC727E22d47B694017455e6B488f8",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7Da69F65166BC727E22d47B694017455e6B488f8/logo.png"
-        },
-        {
-            "name": "FluffUniverse",
-            "chainId": 530,
-            "symbol": "FLUN",
-            "decimals": 18,
-            "address": "0x749F1933F43Ec626cA23CD1D045AFa38124C522F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x749F1933F43Ec626cA23CD1D045AFa38124C522F/logo.png"
-        },
-        {
-            "name": "RubberDuckyDAO",
-            "chainId": 530,
-            "symbol": "RBDD",
-            "decimals": 18,
-            "address": "0xfCABaAe1d6EF10a661b3B0879FC198A903632fC1",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfCABaAe1d6EF10a661b3B0879FC198A903632fC1/logo.png"
-        },
-        {
-            "name": "GalacticGiraffeCoin",
-            "chainId": 530,
-            "symbol": "GALAF",
-            "decimals": 18,
-            "address": "0xfA383C3DEd93ba2bF6cEb48D74832F041fa5B947",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfA383C3DEd93ba2bF6cEb48D74832F041fa5B947/logo.png"
-        },
-        {
-            "name": "BubbleWrapCoin",
-            "chainId": 530,
-            "symbol": "BUBWR",
-            "decimals": 18,
-            "address": "0x72CA6ae41718435ADF7e8340c85E6Da125a57b17",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x72CA6ae41718435ADF7e8340c85E6Da125a57b17/logo.png"
-        },
-        {
-            "name": "SleepySloth",
-            "chainId": 530,
-            "symbol": "SLEH",
-            "decimals": 18,
-            "address": "0x5a6a17f69Ba52b3c76c7E3773d1a9E5b184533D2",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5a6a17f69Ba52b3c76c7E3773d1a9E5b184533D2/logo.png"
-        },
-        {
-            "name": "CosmicPizzaCoin",
-            "chainId": 530,
-            "symbol": "CZP",
-            "decimals": 18,
-            "address": "0x1577dCe2D0AB7CD1FA5a4E400Cea10579e239bE6",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1577dCe2D0AB7CD1FA5a4E400Cea10579e239bE6/logo.png"
-        },
-        {
-            "name": "WizardWeb",
-            "chainId": 530,
-            "symbol": "WZZD",
-            "decimals": 18,
-            "address": "0x12DbA75d257DCFe45C63C3e2018742FEBaFeFa2D",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x12DbA75d257DCFe45C63C3e2018742FEBaFeFa2D/logo.png"
-        },
-        {
-            "name": "AIWUFF",
-            "chainId": 530,
-            "symbol": "AIWUFF",
-            "decimals": 18,
-            "address": "0x9A0a69840D05033e79205867ffe494Fc6632B98A",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9A0a69840D05033e79205867ffe494Fc6632B98A/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/AiWuff"
-            }
-        },
-        {
-            "name": "BAYGON",
-            "chainId": 530,
-            "symbol": "BYG",
-            "decimals": 0,
-            "address": "0xC34316C3081D334b03020F225B59e17049879Fee",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC34316C3081D334b03020F225B59e17049879Fee/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/baygoncoin"
-            }
-        },
-        {
-            "name": "OppaBoba",
-            "chainId": 530,
-            "symbol": "OPPABOBA",
-            "decimals": 18,
-            "address": "0x5777B1A0e57c239b2aFFbc4448Dc92378204224D",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5777B1A0e57c239b2aFFbc4448Dc92378204224D/logo.png"
-        },
-        {
-            "name": "UNIFART",
-            "chainId": 530,
-            "symbol": "UFRT",
-            "decimals": 18,
-            "address": "0x488b585D98C6f20897C0f9A9310674da0d59df0c",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x488b585D98C6f20897C0f9A9310674da0d59df0c/logo.png"
-        },
-        {
-            "name": "BullishBees",
-            "chainId": 530,
-            "symbol": "BZZ",
-            "decimals": 18,
-            "address": "0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483/logo.png"
-        },
-        {
-            "name": "Chope",
-            "chainId": 530,
-            "symbol": "CHOP",
-            "decimals": 18,
-            "address": "0x570f7F92B5e127E806495A030Ec939F0F95AAd11",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x570f7F92B5e127E806495A030Ec939F0F95AAd11/logo.png"
-        },
-        {
-            "name": "Whales of Wall Street",
-            "chainId": 530,
-            "symbol": "WHALE",
-            "decimals": 18,
-            "address": "0x28b92e2b546bA371dc83fa4292C26dAb5853647D",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x28b92e2b546bA371dc83fa4292C26dAb5853647D/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/thewhaletoken"
-            }
-        },
-        {
-            "name": "Kanasai",
-            "chainId": 530,
-            "symbol": "KNS",
-            "decimals": 18,
-            "address": "0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9/logo.png"
-        },
-        {
-            "name": "Green Hathi",
-            "chainId": 530,
-            "symbol": "GHA",
-            "decimals": 18,
-            "address": "0xDBa11d0A76B3D57D99d6B62b454d8D70E9f784B0",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDBa11d0A76B3D57D99d6B62b454d8D70E9f784B0/logo.png",
-            "extensions": {
-                "twitter": "https://twitter.com/Green_Hathi_GHA"
-            }
-        },
-        {
-            "name": "Bonsai",
-            "chainId": 530,
-            "symbol": "BNSI",
-            "decimals": 18,
-            "address": "0x24d2670011BD6ED2c359756b1245CB1e57Bb2282",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x24d2670011BD6ED2c359756b1245CB1e57Bb2282/logo.png"
-        },
-        {
-            "name": "BearBucks",
-            "chainId": 530,
-            "symbol": "BBX",
-            "decimals": 18,
-            "address": "0x8dD1CC0551858E1304C80310139846326e064A34",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8dD1CC0551858E1304C80310139846326e064A34/logo.png"
-        },
-        {
-            "name": "Feathereum",
-            "chainId": 530,
-            "symbol": "FETH",
-            "decimals": 18,
-            "address": "0x07F3e6FBFd75d0e570517A71DEa11c6714B69082",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x07F3e6FBFd75d0e570517A71DEa11c6714B69082/logo.png"
-        },
-        {
-            "name": "SpaceInvaders",
-            "chainId": 530,
-            "symbol": "SIC",
-            "decimals": 18,
-            "address": "0x22960BaC2EbF0e147E6a5F4875EC73660E2aAe49",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x22960BaC2EbF0e147E6a5F4875EC73660E2aAe49/logo.png"
-        },
-        {
-            "name": "StarKittens",
-            "chainId": 530,
-            "symbol": "STRK",
-            "decimals": 18,
-            "address": "0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F/logo.png"
-        },
-        {
-            "name": "CheekyChimp",
-            "chainId": 530,
-            "symbol": "CHMP",
-            "decimals": 18,
-            "address": "0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200/logo.png",
-            "extensions":{
-                "twitter": "https://twitter.com/CheekyCHMP",
-                "website": "https://cheekychimp.xyz"
-            }
-        },
-        {
-            "name": "QuantumQuokka",
-            "chainId": 530,
-            "symbol": "QTMK",
-            "decimals": 18,
-            "address": "0x714913399B2337A1BD687EAd5A82e7605f2651FE",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x714913399B2337A1BD687EAd5A82e7605f2651FE/logo.png"
-        },
-        {
-            "name": "RoaringKitty",
-            "chainId": 530,
-            "symbol": "RoarKat",
-            "decimals": 18,
-            "address": "0x9b10890f4146E99D8E2AA59e13793c438D0b721C",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9b10890f4146E99D8E2AA59e13793c438D0b721C/logo.png",
-            "extensions":{
-                "twitter":"https://twitter.com/TheRoaringKitty"
-            }
-        },
-        {
-            "name": "FlappyBirdCoin",
-            "chainId": 530,
-            "symbol": "FLPY",
-            "decimals": 18,
-            "address": "0xd77a064354b9B0Ee548896b71D628A1B989BFe1d",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd77a064354b9B0Ee548896b71D628A1B989BFe1d/logo.png"
-        },
-        {
-            "name": "MooMooMars",
-            "chainId": 530,
-            "symbol": "MOOM",
-            "decimals": 18,
-            "address": "0x25d6eEe7562D7794BFC99c45c28fC5d3c07ec69b",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x25d6eEe7562D7794BFC99c45c28fC5d3c07ec69b/logo.png"
-        },
-        {
-            "name": "GoldenAxeCoin",
-            "chainId": 530,
-            "symbol": "GAXE",
-            "decimals": 18,
-            "address": "0x2535C48f75FE46AFcBA85AB4724561a2bbe00352",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2535C48f75FE46AFcBA85AB4724561a2bbe00352/logo.png"
-        },
-        {
-            "name": "PixelPenguin",
-            "chainId": 530,
-            "symbol": "PENG",
-            "decimals": 18,
-            "address": "0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877/logo.png",
-            "extensions":{
-                "twitter":"https://x.com/PixePENG"
-            }
-        },
-        {
-            "name": "RocketRaccoon",
-            "chainId": 530,
-            "symbol": "RACCO",
-            "decimals": 18,
-            "address": "0x685A512405dA77Da572781Bfbe7946CE731cBbe3",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x685A512405dA77Da572781Bfbe7946CE731cBbe3/logo.png",
-            "extensions":{
-                "twitter": "https://x.com/RKTRaccooon"
-            }
-        },
-        {
-            "name": "8Ball",
-            "chainId": 530,
-            "symbol": "EBC",
-            "decimals": 18,
-            "address": "0x26a1E7B3d2526fB239bCEca92cFc9386026a39B6",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x26a1E7B3d2526fB239bCEca92cFc9386026a39B6/logo.png"
-        },
-        {
-            "name": "DramaLlama",
-            "chainId": 530,
-            "symbol": "DAMA",
-            "decimals": 18,
-            "address": "0x19C3C89052a70bF76C0397d0792DCF7E5C4cda99",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x19C3C89052a70bF76C0397d0792DCF7E5C4cda99/logo.png"
-        },
-        {
-            "name": "MoonPup",
-            "chainId": 530,
-            "symbol": "MOOP",
-            "decimals": 18,
-            "address": "0x040397398Db0efc425F322fF927966F84138Ba82",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x040397398Db0efc425F322fF927966F84138Ba82/logo.png",
-            "extensions": {
-                "twitter": "https://x.com/0xMoonPup",
-                "website": "https://moonpup.info/"
-            }
-        },
-        {
-            "name": "Coffee wif HOSS",
-            "chainId": 530,
-            "symbol": "COFFEE",
-            "decimals": 18,
-            "address": "0x1253c26A574519B6235432F9Cf48283b9666E60b",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1253c26A574519B6235432F9Cf48283b9666E60b/logo.png",
-            "extensions": {
-                "twitter": "https://x.com/coffeewifhoss",
-                "website": "https://coffeewifhoss.com/"
-            }
-        },
-        {
-            "name": "Arowana Emas",
-            "chainId": 530,
-            "symbol": "ARE",
-            "decimals": 18,
-            "address": "0xEF7c0Dd2374Dfb0cb803d4604C0452E9D3515d3C",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xEF7c0Dd2374Dfb0cb803d4604C0452E9D3515d3C/logo.png",
-            "extensions": {
-                "twitter": "https://x.com/Arowana_Emas"
-            }
-        },
-        {
-            "name": "PIXELPEPE",
-            "chainId": 530,
-            "symbol": "PIPE",
-            "decimals": 18,
-            "address": "0x19fE5Ee366D54f7B57943EE9Ef3ee0ffF3Ba4D88",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x19fE5Ee366D54f7B57943EE9Ef3ee0ffF3Ba4D88/logo.png"
-        },
-        {
-            "name": "GameStop",
-            "chainId": 530,
-            "symbol": "GME",
-            "decimals": 18,
-            "address": "0x8f3a84363429DaE3600008129e6B0D9aca22CF72",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8f3a84363429DaE3600008129e6B0D9aca22CF72/logo.png"
-        },
-        {
-            "name": "BidenBucks",
-            "chainId": 530,
-            "symbol": "BBUX",
-            "decimals": 18,
-            "address": "0x7ecB9Ac1a3470F00cb39DF5e922d4948000ddc43",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7ecB9Ac1a3470F00cb39DF5e922d4948000ddc43/logo.png"
-        },
-        {
-            "name": "MAGAcoin",
-            "chainId": 530,
-            "symbol": "MAGA",
-            "decimals": 18,
-            "address": "0x259deef1A81bB66f58f627fD1C02CEe5b2F0abFa",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x259deef1A81bB66f58f627fD1C02CEe5b2F0abFa/logo.png"
-        },
-        {
-            "name": "PutinPenguins",
-            "chainId": 530,
-            "symbol": "PUTIN",
-            "decimals": 18,
-            "address": "0x7b86ff5c4E200388d496901ee0a709Ce4322469a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7b86ff5c4E200388d496901ee0a709Ce4322469a/logo.png"
-        },
-        {
-            "name": "BEER",
-            "chainId": 530,
-            "symbol": "BEER",
-            "decimals": 18,
-            "address": "0x46CeD54D2F486D71a886b76baa25122B9582ef1b",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x46CeD54D2F486D71a886b76baa25122B9582ef1b/logo.png"
-        },
-        {
-            "name": "TrumpToons",
-            "chainId": 530,
-            "symbol": "TTOON",
-            "decimals": 18,
-            "address": "0x65e37E72dA43B67a87b6eB7c430B8f41457133aE",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x65e37E72dA43B67a87b6eB7c430B8f41457133aE/logo.png"
-        },
-        {
-            "name": "MOTHER IGGY",
-            "chainId": 530,
-            "symbol": "MOTHER",
-            "decimals": 18,
-            "address": "0xe41cbe0442a50253DaC6D0dAf9Bf9ac3181F7a55",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe41cbe0442a50253DaC6D0dAf9Bf9ac3181F7a55/logo.png"
-        },
-        {
-            "name": "Pundi X Token",
-            "chainId": 90001,
-            "symbol": "PUNDIX",
-            "decimals": 18,
-            "address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo-testnet.png"
-        },
-        {
-            "name": "Tether USD",
-            "chainId": 90001,
-            "symbol": "USDT",
-            "decimals": 6,
-            "address": "0x3515F25AB7637adcF1b69F4D384ed5936B83431F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3515F25AB7637adcF1b69F4D384ed5936B83431F/logo-testnet.png"
-        },
-        {
-            "name": "Wrapped Ether",
-            "chainId": 90001,
-            "symbol": "WETH",
-            "decimals": 18,
-            "address": "0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A/logo-testnet.png"
-        },
-        {
-            "name": "Wrapped BTC",
-            "chainId": 90001,
-            "symbol": "WBTC",
-            "decimals": 8,
-            "address": "0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963/logo-testnet.png"
-        },
-        {
-            "name": "Dai Stablecoin",
-            "chainId": 90001,
-            "symbol": "DAI",
-            "decimals": 18,
-            "address": "0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3/logo-testnet.png"
-        },
-        {
-            "name": "USD Coin",
-            "chainId": 90001,
-            "symbol": "USDC",
-            "decimals": 6,
-            "address": "0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E/logo-testnet.png"
-        },
-        {
-            "name": "Wrapped AVAX",
-            "chainId": 90001,
-            "symbol": "WAVAX",
-            "decimals": 18,
-            "address": "0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4/logo-testnet.png"
-        },
-        {
-            "name": "PURSE Token",
-            "chainId": 90001,
-            "symbol": "PURSE",
-            "decimals": 18,
-            "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo-testnet.png"
-        },
-        {
-            "name": "JUST Stablecoin v1.0",
-            "chainId": 90001,
-            "symbol": "USDJ",
-            "decimals": 18,
-            "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo-testnet.png"
-        },
-        {
-            "name": "FX USD",
-            "chainId": 90001,
-            "symbol": "USDF",
-            "decimals": 6,
-            "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo-testnet.png"
-        },
-        {
-            "name": "Chainlink Token",
-            "chainId": 90001,
-            "symbol": "LINK",
-            "decimals": 18,
-            "address": "0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7/logo-testnet.png"
-        },
-        {
-            "name": "BavaToken",
-            "chainId": 90001,
-            "symbol": "BAVA",
-            "decimals": 18,
-            "address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo-testnet.png"
-        },
-        {
-            "name": "Say Meh",
-            "chainId": 90001,
-            "symbol": "SayMeh",
-            "decimals": 18,
-            "address": "0xE00e1cbdd11e9D90d2aC956AE7A133CB0B172fB5",
-            "logoURI": "https://raw.githubusercontent.com/aguscryptocom/images/main/token/0xE00e1cbdd11e9D90d2aC956AE7A133CB0B172fB5.png"
-        },
-        {
-            "name": "USDC",
-            "chainId": 7001,
-            "symbol": "USDC",
-            "decimals": 18,
-            "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a/logo-athens.png"
-        },
-        {
-            "name": "BavaToken",
-            "chainId": 7001,
-            "symbol": "BAVA",
-            "decimals": 18,
-            "address": "0x4a4B9616653515Dd22CC316c6e538fF223144252",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4a4B9616653515Dd22CC316c6e538fF223144252/logo-athens.png"
-        },
-        {
-            "name": "PurseToken",
-            "chainId": 7001,
-            "symbol": "PURSE",
-            "decimals": 18,
-            "address": "0x2DD70efC2b4f456B65F04829D2AcD919F8e50C6a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2DD70efC2b4f456B65F04829D2AcD919F8e50C6a/logo-athens.png"
-        },
-        {
-            "name": "Ether",
-            "chainId": 7000,
-            "symbol": "ETH-ETH",
-            "decimals": 18,
-            "address": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891/logo-zeta.png"
-        },
-        {
-            "name": "Binance Coin",
-            "chainId": 7000,
-            "symbol": "BNB-BSC",
-            "decimals": 18,
-            "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb/logo-zeta.png"
-        },
-        {
-            "name": "USD Coin",
-            "chainId": 7000,
-            "symbol": "USDC-BSC",
-            "decimals": 18,
-            "address": "0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0/logo-zeta.png"
-        },
-        {
-            "name": "USD Coin",
-            "chainId": 7000,
-            "symbol": "USDC-ETH",
-            "decimals": 18,
-            "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a/logo-zeta.png"
-        },
-        {
-            "name": "Tether USD",
-            "chainId": 7000,
-            "symbol": "USDT-BSC",
-            "decimals": 18,
-            "address": "0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F/logo-zeta.png"
-        },
-        {
-            "name": "Tether USD",
-            "chainId": 7000,
-            "symbol": "USDT-ETH",
-            "decimals": 18,
-            "address": "0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7",
-            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7/logo-zeta.png"
-        }
-    ]
-  }
+    {
+      "name": "PURSE Token",
+      "chainId": 530,
+      "symbol": "PURSE",
+      "decimals": 18,
+      "address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/Purse_Land",
+        "website": "https://purse.land/"
+      }
+    },
+    {
+      "name": "Tether USD",
+      "chainId": 530,
+      "symbol": "USDT",
+      "decimals": 6,
+      "address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265/logo.png"
+    },
+    {
+      "name": "Dai Stablecoin",
+      "chainId": 530,
+      "symbol": "DAI",
+      "decimals": 18,
+      "address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1D54EcB8583Ca25895c512A8308389fFD581F9c9/logo.png"
+    },
+    {
+      "name": "STASIS EURS TOKEN",
+      "chainId": 530,
+      "symbol": "EURS",
+      "decimals": 2,
+      "address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E/logo.png"
+    },
+    {
+      "name": "Chainlink Token",
+      "chainId": 530,
+      "symbol": "LINK",
+      "decimals": 18,
+      "address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864/logo.png"
+    },
+    {
+      "name": "Coin98",
+      "chainId": 530,
+      "symbol": "C98",
+      "decimals": 18,
+      "address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6/logo.png"
+    },
+    {
+      "name": "Wrapper Ether",
+      "chainId": 530,
+      "symbol": "WETH",
+      "decimals": 18,
+      "address": "0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717/logo.png"
+    },
+    {
+      "name": "Binance USD",
+      "chainId": 530,
+      "symbol": "BUSD",
+      "decimals": 18,
+      "address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5aD523d94Efb56C400941eb6F34393b84c75ba39/logo.png"
+    },
+    {
+      "name": "Frax",
+      "chainId": 530,
+      "symbol": "FRAX",
+      "decimals": 18,
+      "address": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19/logo.png"
+    },
+    {
+      "name": "Wrapped AVAX",
+      "chainId": 530,
+      "symbol": "WAVAX",
+      "decimals": 18,
+      "address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57/logo.png"
+    },
+    {
+      "name": "USD Coin",
+      "chainId": 530,
+      "symbol": "USDC",
+      "decimals": 6,
+      "address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo.png"
+    },
+    {
+      "name": "BavaToken",
+      "chainId": 530,
+      "symbol": "BAVA",
+      "decimals": 18,
+      "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/baklavaspace",
+        "website": "https://baklava.space/"
+      }
+    },
+    {
+      "name": "Wrapped BTC",
+      "chainId": 530,
+      "symbol": "WBTC",
+      "decimals": 8,
+      "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo.png"
+    },
+    {
+      "name": "CosmosHub ATOM",
+      "chainId": 530,
+      "symbol": "ATOM",
+      "decimals": 6,
+      "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo.png"
+    },
+    {
+      "name": "Chihuahua",
+      "chainId": 530,
+      "symbol": "HUAHUA",
+      "decimals": 6,
+      "address": "0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/ChihuahuaChain",
+        "website": "https://www.chihuahua.wtf/"
+      }
+    },
+    {
+      "name": "Ai Meow",
+      "chainId": 530,
+      "symbol": "AIMEOW",
+      "decimals": 18,
+      "address": "0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x934B9f502dcED1eBf0594c7384Eb299bC3ca2bE6/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/AiMeow404",
+        "website": "https://aimeow.org"
+      }
+    },
+    {
+      "name": "wormsforfun",
+      "chainId": 530,
+      "symbol": "WFF",
+      "decimals": 18,
+      "address": "0xd498e747aD8a5451C0842188F75907210Ab0540A",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd498e747aD8a5451C0842188F75907210Ab0540A/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/wormsforfun",
+        "website": "https://wormsforfun.com/"
+      }
+    },
+    {
+      "name": "melon",
+      "chainId": 530,
+      "symbol": "melon",
+      "decimals": 18,
+      "address": "0x8F1b7FDaE820a052717d9BF60C834973A96C6031",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8F1b7FDaE820a052717d9BF60C834973A96C6031/logo.png"
+    },
+    {
+      "name": "MrCrypto",
+      "chainId": 530,
+      "symbol": "MRC",
+      "decimals": 18,
+      "address": "0xC73736f3bb0b35a5120d43F94D9DDD254650bF98",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC73736f3bb0b35a5120d43F94D9DDD254650bF98/logo.png"
+    },
+    {
+      "name": "MissCrypto",
+      "chainId": 530,
+      "symbol": "MISSC",
+      "decimals": 18,
+      "address": "0x03d6D12865348aE0F8401f0300d10fFAF39FDf1a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x03d6D12865348aE0F8401f0300d10fFAF39FDf1a/logo.png"
+    },
+    {
+      "name": "Cluckonomics",
+      "chainId": 530,
+      "symbol": "COK",
+      "decimals": 18,
+      "address": "0x6f94f340C9FBEfA28E414824a41A7a8827148307",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6f94f340C9FBEfA28E414824a41A7a8827148307/logo.png"
+    },
+    {
+      "name": "SofaKingRich",
+      "chainId": 530,
+      "symbol": "SKR",
+      "decimals": 18,
+      "address": "0xccb313A68da6907b287683fd5FC42469Ca23CbD1",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xccb313A68da6907b287683fd5FC42469Ca23CbD1/logo.png"
+    },
+    {
+      "name": "BreadPitt",
+      "chainId": 530,
+      "symbol": "BREAP",
+      "decimals": 18,
+      "address": "0x2844e94ee77fCa45381117b66A956DA3B4D3F4de",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2844e94ee77fCa45381117b66A956DA3B4D3F4de/logo.png"
+    },
+    {
+      "name": "AlienInsurance",
+      "chainId": 530,
+      "symbol": "ALIN",
+      "decimals": 18,
+      "address": "0x201e8A5a20873ACd5443825C1Ee076afa21251C8",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x201e8A5a20873ACd5443825C1Ee076afa21251C8/logo.png"
+    },
+    {
+      "name": "CouchPotatoCoin",
+      "chainId": 530,
+      "symbol": "CPOTO",
+      "decimals": 18,
+      "address": "0x5A3CaB89E8608B62990DBfd6E3Adb1F28aa6Ee6b",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5A3CaB89E8608B62990DBfd6E3Adb1F28aa6Ee6b/logo.png"
+    },
+    {
+      "name": "DogeDentist",
+      "chainId": 530,
+      "symbol": "DDOG",
+      "decimals": 18,
+      "address": "0x471bc69CbD6AaA04099830A5e92A9d24F9b73216",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x471bc69CbD6AaA04099830A5e92A9d24F9b73216/logo.png"
+    },
+    {
+      "name": "Unicornomics",
+      "chainId": 530,
+      "symbol": "UNICM",
+      "decimals": 18,
+      "address": "0x64179063F360c4f0ef6bd04a06C68282A14FC7BD",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x64179063F360c4f0ef6bd04a06C68282A14FC7BD/logo.png"
+    },
+    {
+      "name": "PirateChain",
+      "chainId": 530,
+      "symbol": "PIRC",
+      "decimals": 18,
+      "address": "0x528cEE13354E0748f5E450590Aac3183bD5D342F",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x528cEE13354E0748f5E450590Aac3183bD5D342F/logo.png"
+    },
+    {
+      "name": "ZombieCoin",
+      "chainId": 530,
+      "symbol": "ZMBC",
+      "decimals": 18,
+      "address": "0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xFC2EC8C95f7fFd4B3A3858BdF610320639D823d2/logo.png"
+    },
+    {
+      "name": "RooRooCoin",
+      "chainId": 530,
+      "symbol": "ROOR",
+      "decimals": 18,
+      "address": "0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB313607B89Cb187A57bBf245cecA8C25bC2B2Cac/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/RooRooCoin",
+        "website": "https://rooroo.xyz/"
+      }
+    },
+    {
+      "name": "BarkyBoi",
+      "chainId": 530,
+      "symbol": "BBDG",
+      "decimals": 18,
+      "address": "0x6C9Ce3DCF2ae2898A62e5c219FE7124e6B26B44e",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6C9Ce3DCF2ae2898A62e5c219FE7124e6B26B44e/logo.png"
+    },
+    {
+      "name": "PepePharaoh Coin",
+      "chainId": 530,
+      "symbol": "PPHC",
+      "decimals": 18,
+      "address": "0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x084b2dEeAA51bc0095Facf7085Ce398A6A0554B1/logo.png"
+    },
+    {
+      "name": "LaserCat",
+      "chainId": 530,
+      "symbol": "LZRCT",
+      "decimals": 18,
+      "address": "0x74713974c5564537db762c44ecdEc72D77635334",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x74713974c5564537db762c44ecdEc72D77635334/logo.png"
+    },
+    {
+      "name": "TrollBridge Coin",
+      "chainId": 530,
+      "symbol": "TBDG",
+      "decimals": 18,
+      "address": "0x3D9F5AEFbc239A74daAa74E4Ee5E67A7bAE4e654",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3D9F5AEFbc239A74daAa74E4Ee5E67A7bAE4e654/logo.png"
+    },
+    {
+      "name": "AstroDuck Coin",
+      "chainId": 530,
+      "symbol": "ASTDK",
+      "decimals": 18,
+      "address": "0x2A5f4E86C361167D3cA9ded6C9c30e9Bc7317A8b",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2A5f4E86C361167D3cA9ded6C9c30e9Bc7317A8b/logo.png"
+    },
+    {
+      "name": "Hamsterrific Wealth",
+      "chainId": 530,
+      "symbol": "HAMW",
+      "decimals": 18,
+      "address": "0x2B757C05d5297f2D69D409f1ED15BC060432056F",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2B757C05d5297f2D69D409f1ED15BC060432056F/logo.png"
+    },
+    {
+      "name": "CryptoCritters",
+      "chainId": 530,
+      "symbol": "CCRT",
+      "decimals": 18,
+      "address": "0xDD5E368cb563206Cd302A530Af942f4A6A4A57b3",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDD5E368cb563206Cd302A530Af942f4A6A4A57b3/logo.png"
+    },
+    {
+      "name": "GooGalaxy",
+      "chainId": 530,
+      "symbol": "GOOGY",
+      "decimals": 18,
+      "address": "0x1F486Fc9691ced963e1d62f48D331aCd040dF2f8",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1F486Fc9691ced963e1d62f48D331aCd040dF2f8/logo.png"
+    },
+    {
+      "name": "ZenGarden",
+      "chainId": 530,
+      "symbol": "ZENG",
+      "decimals": 18,
+      "address": "0x396BF801D33f7fE94AA45528273A676E4225F55c",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x396BF801D33f7fE94AA45528273A676E4225F55c/logo.png"
+    },
+    {
+      "name": "CaffeineRush",
+      "chainId": 530,
+      "symbol": "CAFF",
+      "decimals": 18,
+      "address": "0xd833953a2a08060b39a408B98b5b58f829b7F1e4",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd833953a2a08060b39a408B98b5b58f829b7F1e4/logo.png"
+    },
+    {
+      "name": "Avocadough",
+      "chainId": 530,
+      "symbol": "AVCDO",
+      "decimals": 18,
+      "address": "0xB60a07238f33dF50d19a3e71b33005F9fBa33466",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB60a07238f33dF50d19a3e71b33005F9fBa33466/logo.png"
+    },
+    {
+      "name": "InvisibleCatCoin",
+      "chainId": 530,
+      "symbol": "INVIS",
+      "decimals": 18,
+      "address": "0x003d67210C0e2764D947b0eb94112949ceF71B33",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x003d67210C0e2764D947b0eb94112949ceF71B33/logo.png"
+    },
+    {
+      "name": "MoonCheeseCoin",
+      "chainId": 530,
+      "symbol": "MCHEEZ",
+      "decimals": 18,
+      "address": "0x6309d0AB3bCCD79f86A1Db8B4821DcF0f2E00A9d",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x6309d0AB3bCCD79f86A1Db8B4821DcF0f2E00A9d/logo.png"
+    },
+    {
+      "name": "SockMonsterCoin",
+      "chainId": 530,
+      "symbol": "SMNSTR",
+      "decimals": 18,
+      "address": "0xdD9477cA18858591dBd492D5C6b686009D68e031",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdD9477cA18858591dBd492D5C6b686009D68e031/logo.png"
+    },
+    {
+      "name": "mfercoin",
+      "chainId": 530,
+      "symbol": "$mfer",
+      "decimals": 18,
+      "address": "0x89eDC5312821414e9C33dfBce63E2dc13c57583b",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x89eDC5312821414e9C33dfBce63E2dc13c57583b/logo.png"
+    },
+    {
+      "name": "DINO",
+      "chainId": 530,
+      "symbol": "DINO",
+      "decimals": 18,
+      "address": "0x54d1e664e8CFfF6F6Bad9F0DE11c4fFF1CEEcfe0",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x54d1e664e8CFfF6F6Bad9F0DE11c4fFF1CEEcfe0/logo.png"
+    },
+    {
+      "name": "poopcoin",
+      "chainId": 530,
+      "symbol": "$poop",
+      "decimals": 18,
+      "address": "0xdea17C380259FbA45A2a0BF347599D81c99b56d4",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xdea17C380259FbA45A2a0BF347599D81c99b56d4/logo.png"
+    },
+    {
+      "name": "Book of Base",
+      "chainId": 530,
+      "symbol": "BOBA",
+      "decimals": 18,
+      "address": "0xe5C408bb81741EB1bacbf3851FEfC77435E6526c",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe5C408bb81741EB1bacbf3851FEfC77435E6526c/logo.png"
+    },
+    {
+      "name": "Based Peaches",
+      "chainId": 530,
+      "symbol": "PEACH",
+      "decimals": 18,
+      "address": "0x10AEAec2072f36De9B55FA20D6de7a44B7195697",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x10AEAec2072f36De9B55FA20D6de7a44B7195697/logo.png"
+    },
+    {
+      "name": "QuokkaCoin",
+      "chainId": 530,
+      "symbol": "QUKKA",
+      "decimals": 18,
+      "address": "0x0Fe01857A122812ACB2BEE2ec308FCf5fFB86500",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0Fe01857A122812ACB2BEE2ec308FCf5fFB86500/logo.png"
+    },
+    {
+      "name": "NoodleNarwhal",
+      "chainId": 530,
+      "symbol": "NOODL",
+      "decimals": 18,
+      "address": "0x7Da69F65166BC727E22d47B694017455e6B488f8",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7Da69F65166BC727E22d47B694017455e6B488f8/logo.png"
+    },
+    {
+      "name": "FluffUniverse",
+      "chainId": 530,
+      "symbol": "FLUN",
+      "decimals": 18,
+      "address": "0x749F1933F43Ec626cA23CD1D045AFa38124C522F",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x749F1933F43Ec626cA23CD1D045AFa38124C522F/logo.png"
+    },
+    {
+      "name": "RubberDuckyDAO",
+      "chainId": 530,
+      "symbol": "RBDD",
+      "decimals": 18,
+      "address": "0xfCABaAe1d6EF10a661b3B0879FC198A903632fC1",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfCABaAe1d6EF10a661b3B0879FC198A903632fC1/logo.png"
+    },
+    {
+      "name": "GalacticGiraffeCoin",
+      "chainId": 530,
+      "symbol": "GALAF",
+      "decimals": 18,
+      "address": "0xfA383C3DEd93ba2bF6cEb48D74832F041fa5B947",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfA383C3DEd93ba2bF6cEb48D74832F041fa5B947/logo.png"
+    },
+    {
+      "name": "BubbleWrapCoin",
+      "chainId": 530,
+      "symbol": "BUBWR",
+      "decimals": 18,
+      "address": "0x72CA6ae41718435ADF7e8340c85E6Da125a57b17",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x72CA6ae41718435ADF7e8340c85E6Da125a57b17/logo.png"
+    },
+    {
+      "name": "SleepySloth",
+      "chainId": 530,
+      "symbol": "SLEH",
+      "decimals": 18,
+      "address": "0x5a6a17f69Ba52b3c76c7E3773d1a9E5b184533D2",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5a6a17f69Ba52b3c76c7E3773d1a9E5b184533D2/logo.png"
+    },
+    {
+      "name": "CosmicPizzaCoin",
+      "chainId": 530,
+      "symbol": "CZP",
+      "decimals": 18,
+      "address": "0x1577dCe2D0AB7CD1FA5a4E400Cea10579e239bE6",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1577dCe2D0AB7CD1FA5a4E400Cea10579e239bE6/logo.png"
+    },
+    {
+      "name": "WizardWeb",
+      "chainId": 530,
+      "symbol": "WZZD",
+      "decimals": 18,
+      "address": "0x12DbA75d257DCFe45C63C3e2018742FEBaFeFa2D",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x12DbA75d257DCFe45C63C3e2018742FEBaFeFa2D/logo.png"
+    },
+    {
+      "name": "AIWUFF",
+      "chainId": 530,
+      "symbol": "AIWUFF",
+      "decimals": 18,
+      "address": "0x9A0a69840D05033e79205867ffe494Fc6632B98A",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9A0a69840D05033e79205867ffe494Fc6632B98A/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/AiWuff"
+      }
+    },
+    {
+      "name": "BAYGON",
+      "chainId": 530,
+      "symbol": "BYG",
+      "decimals": 0,
+      "address": "0xC34316C3081D334b03020F225B59e17049879Fee",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xC34316C3081D334b03020F225B59e17049879Fee/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/baygoncoin"
+      }
+    },
+    {
+      "name": "OppaBoba",
+      "chainId": 530,
+      "symbol": "OPPABOBA",
+      "decimals": 18,
+      "address": "0x5777B1A0e57c239b2aFFbc4448Dc92378204224D",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5777B1A0e57c239b2aFFbc4448Dc92378204224D/logo.png"
+    },
+    {
+      "name": "UNIFART",
+      "chainId": 530,
+      "symbol": "UFRT",
+      "decimals": 18,
+      "address": "0x488b585D98C6f20897C0f9A9310674da0d59df0c",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x488b585D98C6f20897C0f9A9310674da0d59df0c/logo.png"
+    },
+    {
+      "name": "BullishBees",
+      "chainId": 530,
+      "symbol": "BZZ",
+      "decimals": 18,
+      "address": "0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5F9edCf76b5FA2374E67fDCC830a9d6b1681d483/logo.png"
+    },
+    {
+      "name": "Chope",
+      "chainId": 530,
+      "symbol": "CHOP",
+      "decimals": 18,
+      "address": "0x570f7F92B5e127E806495A030Ec939F0F95AAd11",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x570f7F92B5e127E806495A030Ec939F0F95AAd11/logo.png"
+    },
+    {
+      "name": "Whales of Wall Street",
+      "chainId": 530,
+      "symbol": "WHALE",
+      "decimals": 18,
+      "address": "0x28b92e2b546bA371dc83fa4292C26dAb5853647D",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x28b92e2b546bA371dc83fa4292C26dAb5853647D/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/thewhaletoken"
+      }
+    },
+    {
+      "name": "Kanasai",
+      "chainId": 530,
+      "symbol": "KNS",
+      "decimals": 18,
+      "address": "0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xBef5db5Fc9235Abf269155b41269b20b11C7cEF9/logo.png"
+    },
+    {
+      "name": "Green Hathi",
+      "chainId": 530,
+      "symbol": "GHA",
+      "decimals": 18,
+      "address": "0xDBa11d0A76B3D57D99d6B62b454d8D70E9f784B0",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDBa11d0A76B3D57D99d6B62b454d8D70E9f784B0/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/Green_Hathi_GHA"
+      }
+    },
+    {
+      "name": "Bonsai",
+      "chainId": 530,
+      "symbol": "BNSI",
+      "decimals": 18,
+      "address": "0x24d2670011BD6ED2c359756b1245CB1e57Bb2282",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x24d2670011BD6ED2c359756b1245CB1e57Bb2282/logo.png"
+    },
+    {
+      "name": "BearBucks",
+      "chainId": 530,
+      "symbol": "BBX",
+      "decimals": 18,
+      "address": "0x8dD1CC0551858E1304C80310139846326e064A34",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8dD1CC0551858E1304C80310139846326e064A34/logo.png"
+    },
+    {
+      "name": "Feathereum",
+      "chainId": 530,
+      "symbol": "FETH",
+      "decimals": 18,
+      "address": "0x07F3e6FBFd75d0e570517A71DEa11c6714B69082",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x07F3e6FBFd75d0e570517A71DEa11c6714B69082/logo.png"
+    },
+    {
+      "name": "SpaceInvaders",
+      "chainId": 530,
+      "symbol": "SIC",
+      "decimals": 18,
+      "address": "0x22960BaC2EbF0e147E6a5F4875EC73660E2aAe49",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x22960BaC2EbF0e147E6a5F4875EC73660E2aAe49/logo.png"
+    },
+    {
+      "name": "StarKittens",
+      "chainId": 530,
+      "symbol": "STRK",
+      "decimals": 18,
+      "address": "0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5f11de66050EC353C59E715E86Fb6f4b53f9E92F/logo.png"
+    },
+    {
+      "name": "CheekyChimp",
+      "chainId": 530,
+      "symbol": "CHMP",
+      "decimals": 18,
+      "address": "0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/CheekyCHMP",
+        "website": "https://cheekychimp.xyz"
+      }
+    },
+    {
+      "name": "QuantumQuokka",
+      "chainId": 530,
+      "symbol": "QTMK",
+      "decimals": 18,
+      "address": "0x714913399B2337A1BD687EAd5A82e7605f2651FE",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x714913399B2337A1BD687EAd5A82e7605f2651FE/logo.png"
+    },
+    {
+      "name": "RoaringKitty",
+      "chainId": 530,
+      "symbol": "RoarKat",
+      "decimals": 18,
+      "address": "0x9b10890f4146E99D8E2AA59e13793c438D0b721C",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9b10890f4146E99D8E2AA59e13793c438D0b721C/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/TheRoaringKitty"
+      }
+    },
+    {
+      "name": "FlappyBirdCoin",
+      "chainId": 530,
+      "symbol": "FLPY",
+      "decimals": 18,
+      "address": "0xd77a064354b9B0Ee548896b71D628A1B989BFe1d",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd77a064354b9B0Ee548896b71D628A1B989BFe1d/logo.png"
+    },
+    {
+      "name": "MooMooMars",
+      "chainId": 530,
+      "symbol": "MOOM",
+      "decimals": 18,
+      "address": "0x25d6eEe7562D7794BFC99c45c28fC5d3c07ec69b",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x25d6eEe7562D7794BFC99c45c28fC5d3c07ec69b/logo.png"
+    },
+    {
+      "name": "GoldenAxeCoin",
+      "chainId": 530,
+      "symbol": "GAXE",
+      "decimals": 18,
+      "address": "0x2535C48f75FE46AFcBA85AB4724561a2bbe00352",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2535C48f75FE46AFcBA85AB4724561a2bbe00352/logo.png"
+    },
+    {
+      "name": "PixelPenguin",
+      "chainId": 530,
+      "symbol": "PENG",
+      "decimals": 18,
+      "address": "0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877/logo.png",
+      "extensions": {
+        "twitter": "https://x.com/PixePENG"
+      }
+    },
+    {
+      "name": "RocketRaccoon",
+      "chainId": 530,
+      "symbol": "RACCO",
+      "decimals": 18,
+      "address": "0x685A512405dA77Da572781Bfbe7946CE731cBbe3",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x685A512405dA77Da572781Bfbe7946CE731cBbe3/logo.png",
+      "extensions": {
+        "twitter": "https://x.com/RKTRaccooon"
+      }
+    },
+    {
+      "name": "8Ball",
+      "chainId": 530,
+      "symbol": "EBC",
+      "decimals": 18,
+      "address": "0x26a1E7B3d2526fB239bCEca92cFc9386026a39B6",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x26a1E7B3d2526fB239bCEca92cFc9386026a39B6/logo.png"
+    },
+    {
+      "name": "DramaLlama",
+      "chainId": 530,
+      "symbol": "DAMA",
+      "decimals": 18,
+      "address": "0x19C3C89052a70bF76C0397d0792DCF7E5C4cda99",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x19C3C89052a70bF76C0397d0792DCF7E5C4cda99/logo.png"
+    },
+    {
+      "name": "MoonPup",
+      "chainId": 530,
+      "symbol": "MOOP",
+      "decimals": 18,
+      "address": "0x040397398Db0efc425F322fF927966F84138Ba82",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x040397398Db0efc425F322fF927966F84138Ba82/logo.png",
+      "extensions": {
+        "twitter": "https://x.com/0xMoonPup",
+        "website": "https://moonpup.info/"
+      }
+    },
+    {
+      "name": "Coffee wif HOSS",
+      "chainId": 530,
+      "symbol": "COFFEE",
+      "decimals": 18,
+      "address": "0x1253c26A574519B6235432F9Cf48283b9666E60b",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x1253c26A574519B6235432F9Cf48283b9666E60b/logo.png",
+      "extensions": {
+        "twitter": "https://x.com/coffeewifhoss",
+        "website": "https://coffeewifhoss.com/"
+      }
+    },
+    {
+      "name": "Arowana Emas",
+      "chainId": 530,
+      "symbol": "ARE",
+      "decimals": 18,
+      "address": "0xEF7c0Dd2374Dfb0cb803d4604C0452E9D3515d3C",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xEF7c0Dd2374Dfb0cb803d4604C0452E9D3515d3C/logo.png",
+      "extensions": {
+        "twitter": "https://x.com/Arowana_Emas"
+      }
+    },
+    {
+      "name": "PIXELPEPE",
+      "chainId": 530,
+      "symbol": "PIPE",
+      "decimals": 18,
+      "address": "0x19fE5Ee366D54f7B57943EE9Ef3ee0ffF3Ba4D88",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x19fE5Ee366D54f7B57943EE9Ef3ee0ffF3Ba4D88/logo.png"
+    },
+    {
+      "name": "GameStop",
+      "chainId": 530,
+      "symbol": "GME",
+      "decimals": 18,
+      "address": "0x8f3a84363429DaE3600008129e6B0D9aca22CF72",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8f3a84363429DaE3600008129e6B0D9aca22CF72/logo.png"
+    },
+    {
+      "name": "BidenBucks",
+      "chainId": 530,
+      "symbol": "BBUX",
+      "decimals": 18,
+      "address": "0x7ecB9Ac1a3470F00cb39DF5e922d4948000ddc43",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7ecB9Ac1a3470F00cb39DF5e922d4948000ddc43/logo.png"
+    },
+    {
+      "name": "MAGAcoin",
+      "chainId": 530,
+      "symbol": "MAGA",
+      "decimals": 18,
+      "address": "0x259deef1A81bB66f58f627fD1C02CEe5b2F0abFa",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x259deef1A81bB66f58f627fD1C02CEe5b2F0abFa/logo.png"
+    },
+    {
+      "name": "PutinPenguins",
+      "chainId": 530,
+      "symbol": "PUTIN",
+      "decimals": 18,
+      "address": "0x7b86ff5c4E200388d496901ee0a709Ce4322469a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7b86ff5c4E200388d496901ee0a709Ce4322469a/logo.png"
+    },
+    {
+      "name": "BEER",
+      "chainId": 530,
+      "symbol": "BEER",
+      "decimals": 18,
+      "address": "0x46CeD54D2F486D71a886b76baa25122B9582ef1b",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x46CeD54D2F486D71a886b76baa25122B9582ef1b/logo.png"
+    },
+    {
+      "name": "TrumpToons",
+      "chainId": 530,
+      "symbol": "TTOON",
+      "decimals": 18,
+      "address": "0x65e37E72dA43B67a87b6eB7c430B8f41457133aE",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x65e37E72dA43B67a87b6eB7c430B8f41457133aE/logo.png"
+    },
+    {
+      "name": "MOTHER IGGY",
+      "chainId": 530,
+      "symbol": "MOTHER",
+      "decimals": 18,
+      "address": "0xe41cbe0442a50253DaC6D0dAf9Bf9ac3181F7a55",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xe41cbe0442a50253DaC6D0dAf9Bf9ac3181F7a55/logo.png"
+    },
+    {
+      "name": "Pundi X Token",
+      "chainId": 90001,
+      "symbol": "PUNDIX",
+      "decimals": 18,
+      "address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa/logo-testnet.png"
+    },
+    {
+      "name": "Tether USD",
+      "chainId": 90001,
+      "symbol": "USDT",
+      "decimals": 6,
+      "address": "0x3515F25AB7637adcF1b69F4D384ed5936B83431F",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x3515F25AB7637adcF1b69F4D384ed5936B83431F/logo-testnet.png"
+    },
+    {
+      "name": "Wrapped Ether",
+      "chainId": 90001,
+      "symbol": "WETH",
+      "decimals": 18,
+      "address": "0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A/logo-testnet.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "chainId": 90001,
+      "symbol": "WBTC",
+      "decimals": 8,
+      "address": "0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963/logo-testnet.png"
+    },
+    {
+      "name": "Dai Stablecoin",
+      "chainId": 90001,
+      "symbol": "DAI",
+      "decimals": 18,
+      "address": "0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3/logo-testnet.png"
+    },
+    {
+      "name": "USD Coin",
+      "chainId": 90001,
+      "symbol": "USDC",
+      "decimals": 6,
+      "address": "0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E/logo-testnet.png"
+    },
+    {
+      "name": "Wrapped AVAX",
+      "chainId": 90001,
+      "symbol": "WAVAX",
+      "decimals": 18,
+      "address": "0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4/logo-testnet.png"
+    },
+    {
+      "name": "PURSE Token",
+      "chainId": 90001,
+      "symbol": "PURSE",
+      "decimals": 18,
+      "address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC/logo-testnet.png"
+    },
+    {
+      "name": "JUST Stablecoin v1.0",
+      "chainId": 90001,
+      "symbol": "USDJ",
+      "decimals": 18,
+      "address": "0x13974cf36984216C90D1F4FC815C156092feA396",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x13974cf36984216C90D1F4FC815C156092feA396/logo-testnet.png"
+    },
+    {
+      "name": "FX USD",
+      "chainId": 90001,
+      "symbol": "USDF",
+      "decimals": 6,
+      "address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x205CF44075E77A3543abC690437F3b2819bc450a/logo-testnet.png"
+    },
+    {
+      "name": "Chainlink Token",
+      "chainId": 90001,
+      "symbol": "LINK",
+      "decimals": 18,
+      "address": "0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7/logo-testnet.png"
+    },
+    {
+      "name": "BavaToken",
+      "chainId": 90001,
+      "symbol": "BAVA",
+      "decimals": 18,
+      "address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E/logo-testnet.png"
+    },
+    {
+      "name": "Say Meh",
+      "chainId": 90001,
+      "symbol": "SayMeh",
+      "decimals": 18,
+      "address": "0xE00e1cbdd11e9D90d2aC956AE7A133CB0B172fB5",
+      "logoURI": "https://raw.githubusercontent.com/aguscryptocom/images/main/token/0xE00e1cbdd11e9D90d2aC956AE7A133CB0B172fB5.png"
+    },
+    {
+      "name": "USDC",
+      "chainId": 7001,
+      "symbol": "USDC",
+      "decimals": 18,
+      "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a/logo-athens.png"
+    },
+    {
+      "name": "BavaToken",
+      "chainId": 7001,
+      "symbol": "BAVA",
+      "decimals": 18,
+      "address": "0x4a4B9616653515Dd22CC316c6e538fF223144252",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4a4B9616653515Dd22CC316c6e538fF223144252/logo-athens.png"
+    },
+    {
+      "name": "PurseToken",
+      "chainId": 7001,
+      "symbol": "PURSE",
+      "decimals": 18,
+      "address": "0x2DD70efC2b4f456B65F04829D2AcD919F8e50C6a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x2DD70efC2b4f456B65F04829D2AcD919F8e50C6a/logo-athens.png"
+    },
+    {
+      "name": "Ether",
+      "chainId": 7000,
+      "symbol": "ETH-ETH",
+      "decimals": 18,
+      "address": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891/logo-zeta.png"
+    },
+    {
+      "name": "Binance Coin",
+      "chainId": 7000,
+      "symbol": "BNB-BSC",
+      "decimals": 18,
+      "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb/logo-zeta.png"
+    },
+    {
+      "name": "USD Coin",
+      "chainId": 7000,
+      "symbol": "USDC-BSC",
+      "decimals": 18,
+      "address": "0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0/logo-zeta.png"
+    },
+    {
+      "name": "USD Coin",
+      "chainId": 7000,
+      "symbol": "USDC-ETH",
+      "decimals": 18,
+      "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a/logo-zeta.png"
+    },
+    {
+      "name": "Tether USD",
+      "chainId": 7000,
+      "symbol": "USDT-BSC",
+      "decimals": 18,
+      "address": "0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F/logo-zeta.png"
+    },
+    {
+      "name": "Tether USD",
+      "chainId": 7000,
+      "symbol": "USDT-ETH",
+      "decimals": 18,
+      "address": "0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7",
+      "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7/logo-zeta.png"
+    },
+    {
+      "name": "TEST",
+      "chainId": 530,
+      "symbol": "TEST",
+      "decimals": 18,
+      "address": "0xabc123",
+      "logoURI": "https://raw.githubusercontent.com/isabelle-pundix/FXSwap-TokenList/main/Tokens/0xabc123/logo.png"
+    }
+  ]
+}
