@@ -1,0 +1,86 @@
+name: Update Token List
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Token name"
+        required: true
+      chainId:
+        description: "Chain ID"
+        required: true
+      symbol:
+        description: "Token symbol"
+        required: true
+      address:
+        description: "Token address"
+        required: true
+      decimals:
+        description: "Token decimals"
+        required: true
+      image:
+        description: "Token logo (base64 encoded)"
+        required: true
+
+jobs:
+  update-token-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Set up Git configuration
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git config core.autocrlf input
+
+      - name: Decode and save image
+        run: |
+          mkdir -p Tokens/${{ github.event.inputs.address }}
+          echo "${{ github.event.inputs.image }}" | base64 --decode > Tokens/${{ github.event.inputs.address }}/logo.png
+
+      - name: List files in Tokens directory
+        run: ls -R Tokens/
+
+      - name: Update FXList.json
+        run: |
+          # Create token_entry.json
+          jq -n \
+            --arg name "${{ github.event.inputs.name }}" \
+            --argjson chainId "${{ github.event.inputs.chainId }}" \
+            --arg symbol "${{ github.event.inputs.symbol }}" \
+            --argjson decimals "${{ github.event.inputs.decimals }}" \
+            --arg address "${{ github.event.inputs.address }}" \
+            --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/main/Tokens/${{ github.event.inputs.address }}/logo.png" \
+            '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
+
+          # Print token_entry.json to debug
+          cat token_entry.json
+
+          # Update FXList.json
+          jq --argfile new_token token_entry.json \
+          '.tokens += [$new_token]' FXList.json \
+          > tmp.json && mv tmp.json FXList.json
+
+          # Print FXList.json after update to debug
+          cat FXList.json
+
+          # Clean up
+          rm token_entry.json
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+          base: main
+          head: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
