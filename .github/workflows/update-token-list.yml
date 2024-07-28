@@ -75,12 +75,21 @@ jobs:
           # Clean up
           rm token_entry.json
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
-          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
-          base: main
-          head: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+      - name: Commit changes
+        run: |
+          git checkout -b "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+          git add .
+          git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+
+      - name: Push changes to fork
+        run: git push origin "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v5
+      #   with:
+      #     token: ${{ secrets.TOKEN }}
+      #     branch: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+      #     title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+      #     body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+      #     base: main
+      #     head: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
