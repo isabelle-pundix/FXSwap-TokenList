@@ -17,19 +17,31 @@ jobs:
           token: ${{ secrets.TOKEN }}
           fetch-depth: 0
 
+      - name: Set Up Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
       - name: Add Upstream Remote
         run: git remote add upstream https://github.com/FunctionX-SG/FXSwap-TokenList.git
 
       - name: Fetch Upstream Changes
         run: git fetch upstream
 
+      - name: Check for Differences
+        id: diff
+        run: |
+          git fetch upstream main
+          git diff --exit-code upstream/main
+        continue-on-error: true
+
       - name: Merge Upstream Changes
-        run: git merge upstream/main
+        if: steps.diff.outcome != 'success'
+        run: |
+          git merge upstream/main
 
       - name: Push Changes
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git push origin main
+        if: steps.diff.outcome != 'success'
+        run: git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
