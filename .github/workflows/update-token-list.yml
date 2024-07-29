@@ -57,6 +57,8 @@ jobs:
           sanitized_name=$(echo "$name" | tr ' ' '-' | tr -cd '[:alnum:]-')
           sanitized_symbol=$(echo "$symbol" | tr ' ' '-' | tr -cd '[:alnum:]-')
           branch_name="add-token-$sanitized_name-$sanitized_symbol"
+          echo "branch_name=$branch_name" >> $GITHUB_ENV
+          echo "logo_uri=https://raw.githubusercontent.com/${{ github.repository }}/$branch_name/Tokens/${{ github.event.inputs.address }}/logo.png" >> $GITHUB_ENV
 
       - name: Update FXList.json
         run: |
@@ -86,18 +88,18 @@ jobs:
 
       - name: Commit changes
         run: |
-          git checkout -b ${branch_name}
+          git checkout -b "${{ env.branch_name }}"
           git add .
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          git push origin "$branch_name"
+          git push origin "${{ env.branch_name }}"
 
       - name: Create Pull Request in Original Repository
         uses: peter-evans/create-pull-request@v5
         with:
           # token: ${{ secrets.TOKEN }}
           repository: FunctionX-SG/FXSwap-TokenList
-          branch: "$branch_name"
-          title: "Add token $name ($symbol)"
-          body: "This PR adds the $name ($symbol) token and its logo."
+          branch: "${{ env.branch_name }}"
+          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
           base: main
-          head: ${{ github.repository_owner }}:$branch_name
+          head: ${{ github.repository_owner }}:${{ env.branch_name }}
