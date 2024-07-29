@@ -77,12 +77,17 @@ jobs:
 
       - name: Commit changes
         run: |
-          git checkout -b "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+          name="${{ github.event.inputs.name }}"
+          symbol="${{ github.event.inputs.symbol }}"
+
+          sanitized_name=$(echo "$name" | tr ' ' '-' | tr -cd '[:alnum:]-')
+          sanitized_symbol=$(echo "$symbol" | tr ' ' '-' | tr -cd '[:alnum:]-')
+          branch_name="add-token-$sanitized_name-$sanitized_symbol"
+
+          git checkout -b "$branch_name"
           git add .
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-
-      - name: Push changes to fork
-        run: git push origin "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+          git push origin "$branch_name"
 
       - name: Create Pull Request in Original Repository
         uses: peter-evans/create-pull-request@v5
