@@ -107,9 +107,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh auth login --with-token <<< "${GH_TOKEN}"
-          gh pr create --title "Add ${GITHUB_EVENT_INPUTS.token_name} Token" \
-                       --body "This PR adds a new token with name '${{ github.event.inputs.token_name }}' and symbol '${{ github.event.inputs.token_symbol }}'." \
+          gh auth setup-git
+          gh pr create --title "Add ${GITHUB_EVENT_INPUTS.name} Token" \
+                       --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
                        --base main \
                        --head ${{ env.branch_name }}
 
