@@ -32,24 +32,23 @@ jobs:
         id: check_diff
         run: |
           git fetch upstream main
-          git diff --exit-code upstream/main -- Tokens FXList.json || echo "changes"
-          if [ $? -eq 0 ]; then
-            echo "::set-output name=changes::false"
+          if git diff --quiet upstream/main -- Tokens FXList.json; then
+            echo "changes=false" >> $GITHUB_ENV
           else
-            echo "::set-output name=changes::true"
+            echo "changes=true" >> $GITHUB_ENV
           fi
 
       - name: Merge Upstream Changes
-        if: steps.check_diff.outputs.changes == 'true'
+        if: env.changes == 'true'
         run: |
           git merge upstream/main
 
       - name: Pull Latest Changes from Origin
-        if: steps.check_diff.outputs.changes == 'true'
+        if: env.changes == 'true'
         run: git pull origin main
 
       - name: Push Changes
-        if: steps.check_diff.outputs.changes == 'true'
+        if: env.changes == 'true'
         run: git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
