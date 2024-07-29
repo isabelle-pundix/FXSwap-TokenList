@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -99,11 +99,12 @@ jobs:
           git push origin ${{ env.branch_name }}
 
       - name: Create Pull Request in Original Repository
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ env.branch_name }}
+          push-to-fork: isabelle-pundix/FXSwap-TokenList
+          # repository: FunctionX-SG/FXSwap-TokenList
+          # head: ${{ env.branch_name }}
+          # base: main
           title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
-          base: main
-          head: ${{ env.branch_name }}
