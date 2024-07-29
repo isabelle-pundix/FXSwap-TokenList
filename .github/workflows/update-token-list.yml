@@ -95,12 +95,12 @@ jobs:
           # Clean up
           rm token_entry.json
 
-        - name: Git diff and stage changes
-          run: |
-            # Get the diff of changes
-            git diff > changes.diff
-            # Show the diff for debugging
-            cat changes.diff
+      - name: Git diff and stage changes
+        run: |
+          # Get the diff of changes
+          git diff > changes.diff
+          # Show the diff for debugging
+          cat changes.diff
 
       # - name: Commit changes
       #   run: |
