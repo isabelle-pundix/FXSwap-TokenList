@@ -86,7 +86,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git checkout -b "$branch_name"
+          git checkout -b ${branch_name}
           git add .
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin "$branch_name"
