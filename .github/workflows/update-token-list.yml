@@ -102,9 +102,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          push-to-fork: isabelle-pundix/FXSwap-TokenList
-          # repository: FunctionX-SG/FXSwap-TokenList
-          # head: ${{ env.branch_name }}
-          # base: main
+          push-to-fork: true
+          branch: ${{ env.branch_name }}
           title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+          base: main
