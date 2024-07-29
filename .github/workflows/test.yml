@@ -26,7 +26,7 @@ jobs:
         run: |
           rm -rf .github/workflows
 
-      - name: Update FXList.json
+      - name: Append new token to FXList.json
         run: |
           # Create token_entry.json
           jq -n \
@@ -44,16 +44,17 @@ jobs:
           # Ensure FXList.json is correctly formatted
           cat FXList.json | jq .
 
-          # Append new token to FXList.json
-          jq --argfile new_token token_entry.json \
-            '.tokens += [$new_token] | .tokens |= unique' FXList.json > tmp.json \
-            && mv tmp.json FXList.json
+          # Manually append the new token to FXList.json
+          temp_file=$(mktemp)
+          jq '.tokens' FXList.json > "$temp_file"
+          jq --slurpfile new_token token_entry.json '. + $new_token' "$temp_file" > "$temp_file.new"
+          jq '.tokens = input' FXList.json "$temp_file.new" > FXList.json
 
           # Print FXList.json after update to debug
           cat FXList.json | jq .
 
           # Clean up
-          rm token_entry.json
+          rm token_entry.json "$temp_file" "$temp_file.new"
 
       - name: Commit changes
         run: |
