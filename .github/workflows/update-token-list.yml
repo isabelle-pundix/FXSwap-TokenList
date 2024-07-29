@@ -70,7 +70,6 @@ jobs:
           rm -rf .github/workflows
 
       - name: Prepare token entry
-        id: prepare
         run: |
           jq -n \
             --arg name "${{ github.event.inputs.name }}" \
