@@ -67,9 +67,7 @@ jobs:
 
       - name: Remove unwanted files and directories
         run: |
-          # Unstage changes to .github/workflows and discard any local changes
-          git reset HEAD .github/workflows
-          git checkout -- .github/workflows
+          rm -rf .github/workflows
 
       - name: Update FXList.json
         run: |
@@ -104,27 +102,18 @@ jobs:
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
-      - name: Install GitHub CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install gh
+      # - name: Install GitHub CLI
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install gh
 
-      - name: Create Pull Request with GH CLI
-        env:
-          GH_TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
+      # - name: Create Pull Request with GH CLI
+      #   env:
+      #     GH_TOKEN: ${{ secrets.TOKEN }}
+      #   run: |
+      #     gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
 
-          # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
-          #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
-          #              --base main \
-          #              --head isabelle-pundix:${{ env.branch_name }}
-
-      # - name: Create Pull Request in Original Repository
-      #   uses: peter-evans/create-pull-request@v6
-      #   with:
-      #     token: ${{ secrets.GITHUB_TOKEN }}
-      #     base: main
-      #     branch: ${{ env.branch_name }}
-      #     title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-      #     body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+      #     # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
+      #     #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
+      #     #              --base main \
+      #     #              --head isabelle-pundix:${{ env.branch_name }}
