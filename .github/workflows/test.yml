@@ -33,7 +33,12 @@ jobs:
 
       - name: Format FXList.json before changes
         run: |
-          jq . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+          jq --indent 4 . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+
+      - name: Check if FXList.json changes after normalization
+        run: |
+          git diff --exit-code FXList.json
+        continue-on-error: true
 
       - name: Append new token to FXList.json
         run: |
@@ -52,7 +57,7 @@ jobs:
 
       - name: Format FXList.json after changes
         run: |
-          jq . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+          jq --indent 4 . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
 
       - name: Commit changes
         run: |
