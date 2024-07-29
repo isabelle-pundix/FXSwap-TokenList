@@ -61,50 +61,53 @@ jobs:
           # Save branch name to be used in subsequent steps
           echo "branch_name=$branch_name" >> $GITHUB_ENV
 
-      - name: Update FXList.json
-        run: |
-          branch_name="${{ env.branch_name }}"
+      - name: Print branch name
+        run: echo "Branch name: ${{ env.branch_name }}"
 
-          # Create token_entry.json
-          jq -n \
-            --arg name "${{ github.event.inputs.name }}" \
-            --argjson chainId "${{ github.event.inputs.chainId }}" \
-            --arg symbol "${{ github.event.inputs.symbol }}" \
-            --argjson decimals "${{ github.event.inputs.decimals }}" \
-            --arg address "${{ github.event.inputs.address }}" \
-            --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/$branch_name/Tokens/${{ github.event.inputs.address }}/logo.png" \
-            '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
+      # - name: Update FXList.json
+      #   run: |
+      #     branch_name="${{ env.branch_name }}"
 
-          # Print token_entry.json to debug
-          cat token_entry.json
+      #     # Create token_entry.json
+      #     jq -n \
+      #       --arg name "${{ github.event.inputs.name }}" \
+      #       --argjson chainId "${{ github.event.inputs.chainId }}" \
+      #       --arg symbol "${{ github.event.inputs.symbol }}" \
+      #       --argjson decimals "${{ github.event.inputs.decimals }}" \
+      #       --arg address "${{ github.event.inputs.address }}" \
+      #       --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/$branch_name/Tokens/${{ github.event.inputs.address }}/logo.png" \
+      #       '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
-          # Update FXList.json
-          jq --argfile new_token token_entry.json \
-          '.tokens += [$new_token]' FXList.json \
-          > tmp.json && mv tmp.json FXList.json
+      #     # Print token_entry.json to debug
+      #     cat token_entry.json
 
-          # Print FXList.json after update to debug
-          cat FXList.json
+      #     # Update FXList.json
+      #     jq --argfile new_token token_entry.json \
+      #     '.tokens += [$new_token]' FXList.json \
+      #     > tmp.json && mv tmp.json FXList.json
 
-          # Clean up
-          rm token_entry.json
+      #     # Print FXList.json after update to debug
+      #     cat FXList.json
 
-      - name: Commit changes
-        run: |
-          branch_name="${{ env.branch_name }}"
+      #     # Clean up
+      #     rm token_entry.json
 
-          git checkout -b "$branch_name"
-          git add .
-          git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          git push origin "$branch_name"
+      # - name: Commit changes
+      #   run: |
+      #     branch_name="${{ env.branch_name }}"
 
-      - name: Create Pull Request in Original Repository
-        uses: peter-evans/create-pull-request@v5
-        with:
-          # token: ${{ secrets.TOKEN }}
-          repository: FunctionX-SG/FXSwap-TokenList
-          branch: ${{ env.branch_name }}
-          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
-          base: main
-          head: ${{ github.repository_owner }}:${{ env.branch_name }}
+      #     git checkout -b "$branch_name"
+      #     git add .
+      #     git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+      #     git push origin "$branch_name"
+
+      # - name: Create Pull Request in Original Repository
+      #   uses: peter-evans/create-pull-request@v5
+      #   with:
+      #     # token: ${{ secrets.TOKEN }}
+      #     repository: FunctionX-SG/FXSwap-TokenList
+      #     branch: ${{ env.branch_name }}
+      #     title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+      #     body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+      #     base: main
+      #     head: ${{ github.repository_owner }}:${{ env.branch_name }}
