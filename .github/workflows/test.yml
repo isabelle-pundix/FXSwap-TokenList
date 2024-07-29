@@ -26,6 +26,10 @@ jobs:
         run: |
           rm -rf .github/workflows
 
+      - name: Format FXList.json before changes
+        run: |
+          jq . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+
       - name: Append new token to FXList.json
         run: |
           # Create token entry
@@ -41,9 +45,13 @@ jobs:
           # Append the new entry to the tokens array in FXList.json
           jq --argjson token_entry "$token_entry" '.tokens += [$token_entry]' FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
 
+      - name: Format FXList.json after changes
+        run: |
+          jq . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+
       - name: Commit changes
         run: |
           git checkout -b test
           git add FXList.json 
-          git commit -m "test"
+          git commit -m "Append new token entry to FXList.json"
           git push origin test
