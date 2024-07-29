@@ -2,22 +2,6 @@ name: Test
 
 on:
   workflow_dispatch:
-    inputs:
-      name:
-        description: "Token name"
-        required: true
-      chainId:
-        description: "Chain ID"
-        required: true
-      symbol:
-        description: "Token symbol"
-        required: true
-      address:
-        description: "Token address"
-        required: true
-      decimals:
-        description: "Token decimals"
-        required: true
 
 jobs:
   update-token-list:
