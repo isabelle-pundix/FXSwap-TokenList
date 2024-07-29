@@ -91,10 +91,7 @@ jobs:
           # Replace the original file with the updated one
           mv tmp.json FXList.json
 
-          # # Update FXList.json 
-          # jq --argfile new_token token_entry.json \
-          # '.tokens += [$new_token]' FXList.json \
-          # > tmp.json && mv tmp.json FXList.json
+
 
           # Print FXList.json after update to debug
           cat FXList.json
