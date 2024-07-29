@@ -69,45 +69,39 @@ jobs:
         run: |
           rm -rf .github/workflows
 
-      - name: Update FXList.json
+      - name: Normalize line endings in FXList.json
         run: |
-          # Create token_entry.json
-          jq -n \
+          awk '{ sub("\r$", ""); print }' FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+
+      - name: Format FXList.json before changes
+        run: |
+          jq --indent 4 . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
+
+      - name: Append new token to FXList.json
+        run: |
+          # Create token entry
+          token_entry=$(jq -n \
             --arg name "${{ github.event.inputs.name }}" \
             --argjson chainId "${{ github.event.inputs.chainId }}" \
             --arg symbol "${{ github.event.inputs.symbol }}" \
             --argjson decimals "${{ github.event.inputs.decimals }}" \
             --arg address "${{ github.event.inputs.address }}" \
             --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/${{ env.branch_name }}/Tokens/${{ github.event.inputs.address }}/logo.png" \
-            '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
+            '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}')
 
-          # Print token_entry.json to debug
-          cat token_entry.json
+          # Append the new entry to the tokens array in FXList.json
+          jq --argjson token_entry "$token_entry" '.tokens += [$token_entry]' FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
 
-          # Update FXList.json
-          jq --argfile new_token token_entry.json \
-            '.tokens += [$new_token]' FXList.json \
-            > tmp.json && mv tmp.json FXList.json
-
-          # Print FXList.json after update to debug
-          cat FXList.json
-
-          # Clean up
-          rm token_entry.json
-
-      - name: Git diff and stage changes
+      - name: Format FXList.json after changes
         run: |
-          # Get the diff of changes
-          git diff > changes.diff
-          # Show the diff for debugging
-          cat changes.diff
+          jq --indent 4 . FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
 
-      # - name: Commit changes
-      #   run: |
-      #     git checkout -b ${{ env.branch_name }}
-      #     git add FXList.json Tokens/${{ github.event.inputs.address }}/logo.png
-      #     git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-      #     git push origin ${{ env.branch_name }}
+      - name: Commit changes
+        run: |
+          git checkout -b ${{ env.branch_name }}
+          git add FXList.json Tokens/${{ github.event.inputs.address }}/logo.png
+          git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+          git push origin ${{ env.branch_name }}
 
       # - name: Install GitHub CLI
       #   run: |
