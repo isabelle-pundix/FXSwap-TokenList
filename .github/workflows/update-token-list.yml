@@ -62,7 +62,8 @@ jobs:
           echo "branch_name=$branch_name" >> $GITHUB_ENV
 
       - name: Print branch name
-        run: echo "Branch name: ${{ env.branch_name }}"
+        run: |
+          echo "Branch name: ${{ env.branch_name }}"
 
       # - name: Update FXList.json
       #   run: |
