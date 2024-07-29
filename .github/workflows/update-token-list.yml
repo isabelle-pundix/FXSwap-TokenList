@@ -102,7 +102,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-           push-to-fork: isabelle-pundix/FXSwap-TokenList
+          push-to-fork: isabelle-pundix/FXSwap-TokenList
           # repository: FunctionX-SG/FXSwap-TokenList
           # head: isabelle-pundix:${{ env.branch_name }}
           # base: main
