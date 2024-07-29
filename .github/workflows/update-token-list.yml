@@ -69,7 +69,7 @@ jobs:
             --arg symbol "${{ github.event.inputs.symbol }}" \
             --argjson decimals "${{ github.event.inputs.decimals }}" \
             --arg address "${{ github.event.inputs.address }}" \
-            --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/${branch_name}/Tokens/${{ github.event.inputs.address }}/logo.png" \
+            --arg logoURI "${{ env.logo_uri }}" \
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
           # Print token_entry.json to debug
