@@ -1003,6 +1003,14 @@
             "decimals": 18,
             "address": "0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7/logo-zeta.png"
+        },
+        {
+            "name": "Ai Meow",
+            "chainId": 7000,
+            "symbol": "AIMEOW",
+            "decimals": 18,
+            "address": "0x4a4B9616653515Dd22CC316c6e538fF223144252",
+            "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4a4B9616653515Dd22CC316c6e538fF223144252/logo-zeta.png"
         }
     ]
   }
