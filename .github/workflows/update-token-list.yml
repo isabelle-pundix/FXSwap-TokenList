@@ -102,7 +102,7 @@ jobs:
       - name: Commit changes
         run: |
           git checkout -b ${{ env.branch_name }}
-          git add .
+          git add FXList.json Tokens/${{ github.event.inputs.address }}/logo.png
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
