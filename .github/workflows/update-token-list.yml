@@ -81,18 +81,16 @@ jobs:
             --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/${{ env.branch_name }}/Tokens/${{ github.event.inputs.address }}/logo.png" \
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
-          # Print token_entry.json to debug
-          cat token_entry.json
-
-          # Update FXList.json by appending the new token entry
+          # Append the new token entry to FXList.json
           jq --argfile new_token token_entry.json \
-          '.tokens += [$new_token] | .tokens |= unique' FXList.json > tmp.json && mv tmp.json FXList.json
+          '.tokens += [$new_token]' FXList.json.bak \
+          > FXList.json
 
           # Print FXList.json after update to debug
           cat FXList.json
 
           # Clean up
-          rm token_entry.json
+          rm token_entry.json FXList.json.bak
 
       - name: Commit changes
         run: |
