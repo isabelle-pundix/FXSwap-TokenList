@@ -101,10 +101,11 @@ jobs:
       - name: Create Pull Request in Original Repository
         uses: peter-evans/create-pull-request@v6
         with:
+          # token: ${{ secrets.GITHUB_TOKEN }}
+          # push-to-fork: isabelle-pundix/FXSwap-TokenList
           token: ${{ secrets.GITHUB_TOKEN }}
-          push-to-fork: FunctionX-SG/FXSwap-TokenList
-          # repository: FunctionX-SG/FXSwap-TokenList
-          # head: isabelle-pundix:${{ env.branch_name }}
-          # base: main
-          # title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          # body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+          repository: FunctionX-SG/FXSwap-TokenList
+          head: ${{ env.branch_name }}
+          base: main
+          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
