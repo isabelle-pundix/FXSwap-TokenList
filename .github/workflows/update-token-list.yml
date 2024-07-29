@@ -69,6 +69,10 @@ jobs:
         run: |
           rm -rf .github/workflows
 
+      - name: Backup FXList.json
+        run: |
+          cp FXList.json FXList.json.bak
+
       - name: Update FXList.json
         run: |
           # Create token_entry.json
