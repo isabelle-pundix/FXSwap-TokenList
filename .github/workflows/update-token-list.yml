@@ -84,24 +84,10 @@ jobs:
           # Print token_entry.json to debug
           cat token_entry.json
 
-          # Check if token already exists
-          token_exists=$(jq --arg address "${{ github.event.inputs.address }}" '.tokens | map(select(.address == $address)) | length > 0' FXList.json)
-
-          # Update FXList.json only if token doesn't exist
-          if [ "$token_exists" = "false" ]; then
-            # Create a backup of FXList.json
-            cp FXList.json FXList_backup.json
-
-            # Extract tokens from FXList.json
-            existing_tokens=$(jq '.tokens' FXList.json)
-
-            # Add new token to existing tokens
-            new_tokens=$(jq --argfile new_token token_entry.json \
-                      '. + [$new_token]' <<<"$existing_tokens")
-
-            # Write updated tokens back to FXList.json
-            jq --argjson tokens "$new_tokens" '.tokens = $tokens' FXList_backup.json > FXList.json
-              fi
+          # Update FXList.json 
+          jq --argfile new_token token_entry.json \
+          '.tokens += [$new_token]' FXList.json \
+          > tmp.json && mv tmp.json FXList.json
 
           # Print FXList.json after update to debug
           cat FXList.json
