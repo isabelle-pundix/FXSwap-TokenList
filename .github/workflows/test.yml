@@ -38,23 +38,8 @@ jobs:
             --arg logoURI "https://raw.githubusercontent.com/isabelle-pundix/FXSwap-TokenList//Tokens/0xabc1234/logo.png" \
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
-          # Print token_entry.json to debug
-          cat token_entry.json
-
-          # Ensure FXList.json is correctly formatted
-          cat FXList.json | jq .
-
-          # Manually append the new token to FXList.json
-          temp_file=$(mktemp)
-          jq '.tokens' FXList.json > "$temp_file"
-          jq --slurpfile new_token token_entry.json '. + $new_token' "$temp_file" > "$temp_file.new"
-          jq '.tokens = input' FXList.json "$temp_file.new" > FXList.json
-
-          # Print FXList.json after update to debug
-          cat FXList.json | jq .
-
-          # Clean up
-          rm token_entry.json "$temp_file" "$temp_file.new"
+          # Append the new entry to FXList.json
+          jq '. + [$token_entry]' FXList.json --argjson token_entry "$token_entry" > tmp.FXList.json && mv tmp.FXList.json FXList.json
 
       - name: Commit changes
         run: |
