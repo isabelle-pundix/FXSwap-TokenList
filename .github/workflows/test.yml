@@ -20,11 +20,16 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git config core.autocrlf input
+          git config core.autocrlf false
+          git config core.eol lf
 
       - name: Remove unwanted files and directories
         run: |
           rm -rf .github/workflows
+
+      - name: Normalize line endings in FXList.json
+        run: |
+          awk '{ sub("\r$", ""); print }' FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
 
       - name: Format FXList.json before changes
         run: |
