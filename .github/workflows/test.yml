@@ -46,24 +46,27 @@ jobs:
         run: |
           # Create token_entry.json
           jq -n \
-            --arg name "${{ github.event.inputs.name }}" \
-            --argjson chainId "${{ github.event.inputs.chainId }}" \
-            --arg symbol "${{ github.event.inputs.symbol }}" \
-            --argjson decimals "${{ github.event.inputs.decimals }}" \
-            --arg address "${{ github.event.inputs.address }}" \
-            --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/${{ env.branch_name }}/Tokens/${{ github.event.inputs.address }}/logo.png" \
+            --arg name "Test" \
+            --argjson chainId "1" \
+            --arg symbol "TT" \
+            --argjson decimals "18" \
+            --arg address "0xabc1234" \
+            --arg logoURI "https://raw.githubusercontent.com/isabelle-pundix/FXSwap-TokenList//Tokens/0xabc1234/logo.png" \
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
           # Print token_entry.json to debug
           cat token_entry.json
 
+          # Ensure FXList.json is correctly formatted
+          cat FXList.json | jq .
+
           # Update FXList.json
           jq --argfile new_token token_entry.json \
-            '.tokens += [$new_token]' FXList.json \
+            '.tokens += [$new_token] | .tokens |= unique' FXList.json \
             > tmp.json && mv tmp.json FXList.json
 
           # Print FXList.json after update to debug
-          cat FXList.json
+          cat FXList.json | jq .
 
           # Clean up
           rm token_entry.json
