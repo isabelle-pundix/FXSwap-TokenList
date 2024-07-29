@@ -89,8 +89,9 @@ jobs:
 
           # Update FXList.json only if token doesn't exist
           if [ "$token_exists" = "false" ]; then
+            # Append the new token entry
             jq --argfile new_token token_entry.json \
-            '.tokens += [$new_token]' FXList.json > tmp.json && mv tmp.json FXList.json
+               '.tokens += [$new_token]' FXList.json > tmp.json && mv tmp.json FXList.json
           fi
 
           # Print FXList.json after update to debug
