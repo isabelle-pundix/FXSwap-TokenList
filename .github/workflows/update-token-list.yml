@@ -109,8 +109,9 @@ jobs:
         run: |
           gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
                        --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
-                       --base FunctionX-SG/main \
-                       --head isabelle-pundix:${{ env.branch_name }}
+                       --base main \
+                       --head isabelle-pundix:${{ env.branch_name }} \
+                       --repo FunctionX-SG/FXSwap-TokenList
 
       # - name: Create Pull Request in Original Repository
       #   uses: peter-evans/create-pull-request@v6
