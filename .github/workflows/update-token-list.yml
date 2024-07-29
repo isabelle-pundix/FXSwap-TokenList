@@ -82,14 +82,14 @@ jobs:
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
           # Add the new token entry to FXList.json
-          jq --argfile new_token new_token_entry.json \
+          jq --argfile new_token token_entry.json \
             '.tokens += [$new_token] | .tokens |= map(select(.address != $new_token.address))' FXList.json > updated_FXList.json
 
           # Replace the old FXList.json with the updated file
           mv updated_FXList.json FXList.json
 
           # Clean up
-          rm new_token_entry.json
+          rm token_entry.json
 
       - name: Generate and Review Git Diff
         run: |
