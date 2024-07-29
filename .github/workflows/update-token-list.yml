@@ -98,11 +98,20 @@ jobs:
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
-      - name: Create Pull Request
+      - name: Install GitHub CLI
         run: |
-          gh pr create --title "Automated PR" --body "This is an automated pull request created by GitHub Actions" --base owner/main --head isabelle-pundix:${{ env.branch_name }}
+          sudo apt-get update
+          sudo apt-get install gh
+
+      - name: Create Pull Request with GH CLI
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh auth login --with-token <<< "${GH_TOKEN}"
+          gh pr create --title "Add ${GITHUB_EVENT_INPUTS.token_name} Token" \
+                       --body "This PR adds a new token with name '${{ github.event.inputs.token_name }}' and symbol '${{ github.event.inputs.token_symbol }}'." \
+                       --base main \
+                       --head ${{ env.branch_name }}
 
       # - name: Create Pull Request in Original Repository
       #   uses: peter-evans/create-pull-request@v6
