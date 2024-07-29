@@ -84,12 +84,9 @@ jobs:
           # Print token_entry.json to debug
           cat token_entry.json
 
-          # Ensure the existing JSON is valid and pretty
-          jq '.' FXList.json > tmp.json && mv tmp.json FXList.json
-
-          # Append the new token entry to the existing JSON
+          # Update FXList.json by appending the new token entry
           jq --argfile new_token token_entry.json \
-            '.tokens += [$new_token]' FXList.json > tmp.json && mv tmp.json FXList.json
+          '.tokens += [$new_token] | .tokens |= unique' FXList.json > tmp.json && mv tmp.json FXList.json
 
           # Print FXList.json after update to debug
           cat FXList.json
