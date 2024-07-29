@@ -69,10 +69,6 @@ jobs:
         run: |
           rm -rf .github/workflows
 
-      - name: Backup FXList.json
-        run: |
-          cp FXList.json FXList.json.bak
-
       - name: Update FXList.json
         run: |
           # Create token_entry.json
@@ -85,23 +81,32 @@ jobs:
             --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/${{ env.branch_name }}/Tokens/${{ github.event.inputs.address }}/logo.png" \
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
-          # Append the new token entry to FXList.json
-          jq --argfile new_token token_entry.json \
-          '.tokens += [$new_token]' FXList.json.bak \
-          > FXList.json
+          # Add the new token entry to FXList.json
+          jq --argfile new_token new_token_entry.json \
+            '.tokens += [$new_token] | .tokens |= map(select(.address != $new_token.address))' FXList.json > updated_FXList.json
 
-          # Print FXList.json after update to debug
-          cat FXList.json
+          # Replace the old FXList.json with the updated file
+          mv updated_FXList.json FXList.json
 
           # Clean up
-          rm token_entry.json FXList.json.bak
-
-      - name: Commit changes
+          rm new_token_entry.json
+      
+       - name: Generate and Review Git Diff
         run: |
-          git checkout -b ${{ env.branch_name }}
-          git add FXList.json Tokens/${{ github.event.inputs.address }}/logo.png
-          git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          git push origin ${{ env.branch_name }}
+          # Generate the git diff
+          git diff > diff.txt
+
+          # Display the diff
+          cat diff.txt
+
+          
+
+      # - name: Commit changes
+      #   run: |
+      #     git checkout -b ${{ env.branch_name }}
+      #     git add FXList.json Tokens/${{ github.event.inputs.address }}/logo.png
+      #     git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+      #     git push origin ${{ env.branch_name }}
 
       # - name: Install GitHub CLI
       #   run: |
