@@ -107,7 +107,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create -R FunctionX-SG/FXSwap-TokenList -H isabelle-pundix:${{ env.branch_name }} --base main --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
+          gh pr create --repo owner/repo --base main --head isabelle-pundix:${{ env.branch_name }}
+
           # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
           #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
           #              --base main \
