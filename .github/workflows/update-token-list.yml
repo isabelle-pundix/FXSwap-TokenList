@@ -94,8 +94,8 @@ jobs:
         with:
           # token: ${{ secrets.TOKEN }}
           repository: FunctionX-SG/FXSwap-TokenList
-          branch: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
-          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
+          branch: "$branch_name"
+          title: "Add token $name ($symbol)"
+          body: "This PR adds the $name ($symbol) token and its logo."
           base: main
-          head: isabelle-pundix:add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}
+          head: ${{ github.repository_owner }}:$branch_name
