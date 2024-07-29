@@ -98,12 +98,17 @@ jobs:
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
-      - name: Create Pull Request in Original Repository
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: main
-          branch: ${{ env.branch_name }}
-          title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
-          body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
-          push-to-fork: true
+     - name: Create Pull Request
+      run: |
+        gh pr create --title "Automated PR" --body "This is an automated pull request created by GitHub Actions" --base owner/main --head isabelle-pundix:${{ env.branch_name }}
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # - name: Create Pull Request in Original Repository
+      #   uses: peter-evans/create-pull-request@v6
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     base: main
+      #     branch: ${{ env.branch_name }}
+      #     title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
+      #     body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
