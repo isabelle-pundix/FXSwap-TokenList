@@ -85,6 +85,7 @@ jobs:
           cat token_entry.json
 
           # Update FXList.json
+          if [ "$token_exists" = "false" ]; then
           jq --argfile new_token token_entry.json \
           '.tokens += [$new_token]' FXList.json \
           > tmp.json && mv tmp.json FXList.json
@@ -102,18 +103,18 @@ jobs:
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
-      - name: Install GitHub CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install gh
+      # - name: Install GitHub CLI
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install gh
 
-      - name: Create Pull Request with GH CLI
-        env:
-          GH_TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
+      # - name: Create Pull Request with GH CLI
+      #   env:
+      #     GH_TOKEN: ${{ secrets.TOKEN }}
+      #   run: |
+      #     gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
 
-          # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
-          #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
-          #              --base main \
-          #              --head isabelle-pundix:${{ env.branch_name }}
+      #     # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
+      #     #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
+      #     #              --base main \
+      #     #              --head isabelle-pundix:${{ env.branch_name }}
