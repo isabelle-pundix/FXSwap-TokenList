@@ -49,23 +49,30 @@ jobs:
       - name: List files in Tokens directory
         run: ls -R Tokens/
 
-      - name: Update FXList.json
+      - name: Prepare branch and token entry
+        id: prepare
         run: |
-          # Create token_entry.json
           name="${{ github.event.inputs.name }}"
           symbol="${{ github.event.inputs.symbol }}"
-
           sanitized_name=$(echo "$name" | tr ' ' '-' | tr -cd '[:alnum:]-')
           sanitized_symbol=$(echo "$symbol" | tr ' ' '-' | tr -cd '[:alnum:]-')
           branch_name="add-token-$sanitized_name-$sanitized_symbol"
 
+          # Save branch name to be used in subsequent steps
+          echo "branch_name=$branch_name" >> $GITHUB_ENV
+
+      - name: Update FXList.json
+        run: |
+          branch_name="${{ env.branch_name }}"
+
+          # Create token_entry.json
           jq -n \
             --arg name "${{ github.event.inputs.name }}" \
             --argjson chainId "${{ github.event.inputs.chainId }}" \
             --arg symbol "${{ github.event.inputs.symbol }}" \
             --argjson decimals "${{ github.event.inputs.decimals }}" \
             --arg address "${{ github.event.inputs.address }}" \
-            --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/"$branch_name"/Tokens/${{ github.event.inputs.address }}/logo.png" \
+            --arg logoURI "https://raw.githubusercontent.com/${{ github.repository }}/$branch_name/Tokens/${{ github.event.inputs.address }}/logo.png" \
             '{name: $name, chainId: $chainId, symbol: $symbol, decimals: $decimals, address: $address, logoURI: $logoURI}' > token_entry.json
 
           # Print token_entry.json to debug
@@ -84,12 +91,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          name="${{ github.event.inputs.name }}"
-          symbol="${{ github.event.inputs.symbol }}"
-
-          sanitized_name=$(echo "$name" | tr ' ' '-' | tr -cd '[:alnum:]-')
-          sanitized_symbol=$(echo "$symbol" | tr ' ' '-' | tr -cd '[:alnum:]-')
-          branch_name="add-token-$sanitized_name-$sanitized_symbol"
+          branch_name="${{ env.branch_name }}"
 
           git checkout -b "$branch_name"
           git add .
@@ -101,8 +103,8 @@ jobs:
         with:
           # token: ${{ secrets.TOKEN }}
           repository: FunctionX-SG/FXSwap-TokenList
-          branch: "add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}"
+          branch: ${{ env.branch_name }}
           title: "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           body: "This PR adds the ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }}) token and its logo."
           base: main
-          head: isabelle-pundix:add-token-${{ github.event.inputs.name }}-${{ github.event.inputs.symbol }}
+          head: ${{ github.repository_owner }}:${{ env.branch_name }}
