@@ -90,16 +90,14 @@ jobs:
 
           # Clean up
           rm new_token_entry.json
-      
-       - name: Generate and Review Git Diff
+
+      - name: Generate and Review Git Diff
         run: |
           # Generate the git diff
           git diff > diff.txt
 
           # Display the diff
           cat diff.txt
-
-          
 
       # - name: Commit changes
       #   run: |
