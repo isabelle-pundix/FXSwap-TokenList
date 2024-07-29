@@ -65,6 +65,12 @@ jobs:
         run: |
           echo "Branch name: ${{ env.branch_name }}"
 
+      - name: Remove unwanted files and directories
+        run: |
+          # Unstage changes to .github/workflows and discard any local changes
+          git reset HEAD .github/workflows
+          git checkout -- .github/workflows
+
       - name: Update FXList.json
         run: |
           # Create token_entry.json
