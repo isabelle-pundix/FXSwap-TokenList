@@ -104,8 +104,6 @@ jobs:
           sudo apt-get install gh
 
       - name: Create Pull Request with GH CLI
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
 
