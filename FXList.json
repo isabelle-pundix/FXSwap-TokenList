@@ -10,7 +10,6 @@
         "Tokens"
     ],
     "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/FX.png",
-
     "timestamp": "2022-06-08T09:30:00+0000",
     "tokens": [
         {
@@ -376,7 +375,8 @@
             "decimals": 18,
             "address": "0xB60a07238f33dF50d19a3e71b33005F9fBa33466",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xB60a07238f33dF50d19a3e71b33005F9fBa33466/logo.png"
-        },{
+        },
+        {
             "name": "InvisibleCatCoin",
             "chainId": 530,
             "symbol": "INVIS",
@@ -643,7 +643,7 @@
             "decimals": 18,
             "address": "0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xDC2Ac0eC179aF0A4ba8842D4b9f633472737f200/logo.png",
-            "extensions":{
+            "extensions": {
                 "twitter": "https://twitter.com/CheekyCHMP",
                 "website": "https://cheekychimp.xyz"
             }
@@ -663,8 +663,8 @@
             "decimals": 18,
             "address": "0x9b10890f4146E99D8E2AA59e13793c438D0b721C",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x9b10890f4146E99D8E2AA59e13793c438D0b721C/logo.png",
-            "extensions":{
-                "twitter":"https://twitter.com/TheRoaringKitty"
+            "extensions": {
+                "twitter": "https://twitter.com/TheRoaringKitty"
             }
         },
         {
@@ -698,8 +698,8 @@
             "decimals": 18,
             "address": "0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0xfcd4B135E8d5d0ac327C5D11659C0F881c54F877/logo.png",
-            "extensions":{
-                "twitter":"https://x.com/PixePENG"
+            "extensions": {
+                "twitter": "https://x.com/PixePENG"
             }
         },
         {
@@ -709,7 +709,7 @@
             "decimals": 18,
             "address": "0x685A512405dA77Da572781Bfbe7946CE731cBbe3",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x685A512405dA77Da572781Bfbe7946CE731cBbe3/logo.png",
-            "extensions":{
+            "extensions": {
                 "twitter": "https://x.com/RKTRaccooon"
             }
         },
@@ -1011,6 +1011,14 @@
             "decimals": 18,
             "address": "0x4a4B9616653515Dd22CC316c6e538fF223144252",
             "logoURI": "https://raw.githubusercontent.com/FunctionX-SG/FXSwap-TokenList/main/Tokens/0x4a4B9616653515Dd22CC316c6e538fF223144252/logo-zeta.png"
+        },
+        {
+            "name": "My Token",
+            "chainId": 503,
+            "symbol": "MTK",
+            "decimals": 18,
+            "address": "0xDF017bB94DD2d2c241311209529130d29B19FDD8",
+            "logoURI": "https://raw.githubusercontent.com/isabelle-pundix/FXSwap-TokenList/add-token-My-Token-MTK/Tokens/0xDF017bB94DD2d2c241311209529130d29B19FDD8/logo.png"
         }
     ]
-  }
+}
