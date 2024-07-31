@@ -95,15 +95,16 @@ jobs:
       - name: Commit changes
         run: |
           git checkout -b ${{ env.branch_name }}
+          rm -rf .github/workflows
           git add FXList.json Tokens/${{ github.event.inputs.address }}/logo.png
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
-      - name: Remove unwanted files and directories
-        run: |
-          rm -rf .github/workflows
-          git add
-          git commit -m "Remove .github/workflows directory"
+      # - name: Remove unwanted files and directories
+      #   run: |
+
+      #     git add .
+      #     git commit -m "Remove .github/workflows directory"
 
       - name: Install GitHub CLI
         run: |
