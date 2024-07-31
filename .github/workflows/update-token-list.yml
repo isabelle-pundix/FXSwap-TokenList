@@ -101,7 +101,6 @@ jobs:
 
       - name: Remove unwanted files and directories
         run: |
-          git checkout -b ${{ env.branch_name }}
           rm -rf .github/workflows
           git commit -m "Remove .github/workflows directory"
 
