@@ -102,6 +102,7 @@ jobs:
       - name: Remove unwanted files and directories
         run: |
           rm -rf .github/workflows
+          git add
           git commit -m "Remove .github/workflows directory"
 
       - name: Install GitHub CLI
