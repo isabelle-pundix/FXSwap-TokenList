@@ -65,12 +65,6 @@ jobs:
         run: |
           echo "Branch name: ${{ env.branch_name }}"
 
-      - name: Remove unwanted files and directories
-        run: |
-          rm -rf .github/workflows
-          git add .github/
-          git commit -m "Remove .github/workflows directory"
-
       - name: Normalize line endings in FXList.json
         run: |
           awk '{ sub("\r$", ""); print }' FXList.json > tmp.FXList.json && mv tmp.FXList.json FXList.json
@@ -105,18 +99,24 @@ jobs:
           git commit -m "Add token ${{ github.event.inputs.name }} (${{ github.event.inputs.symbol }})"
           git push origin ${{ env.branch_name }}
 
+      - name: Remove unwanted files and directories
+        run: |
+          git checkout -b ${{ env.branch_name }}
+          rm -rf .github/workflows
+          git commit -m "Remove .github/workflows directory"
+
       - name: Install GitHub CLI
         run: |
           sudo apt-get update
           sudo apt-get install gh
 
-      - name: Create Pull Request with GH CLI
-        env:
-          GH_TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
+      # - name: Create Pull Request with GH CLI
+      #   env:
+      #     GH_TOKEN: ${{ secrets.TOKEN }}
+      #   run: |
+      #     gh pr create --repo FunctionX-SG/FXSwap-TokenList --base main --head isabelle-pundix:${{ env.branch_name }} --title "Add ${{ github.event.inputs.name }} Token" --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'."
 
-          # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
-          #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
-          #              --base main \
-          #              --head isabelle-pundix:${{ env.branch_name }}
+      #     # gh pr create --title "Add ${{ github.event.inputs.name }} Token" \
+      #     #              --body "This PR adds a new token with name '${{ github.event.inputs.name }}' and symbol '${{ github.event.inputs.symbol }}'." \
+      #     #              --base main \
+      #     #              --head isabelle-pundix:${{ env.branch_name }}
